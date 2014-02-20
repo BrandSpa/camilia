@@ -33,6 +33,6 @@ class HomeController extends BaseController {
 
 	public function wantToShare()
 	{
-		$this->layout->content = View::make('i_want_to_marry');
+		$this->layout->content = View::make('want_to_share');
 	}
 }

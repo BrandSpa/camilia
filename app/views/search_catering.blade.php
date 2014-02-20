@@ -22,10 +22,10 @@
 <div class="space"></div>
 <div class="row">
 	<div class="col-lg-12">
-			<span class="intro-icon"></span>
-			<div class="intro-border-outside">
-				<div class="intro-border-inside">
-					<div class="row">
+		<span class="intro-icon"></span>
+		<div class="intro-border-outside">
+			<div class="intro-border-inside">
+				<div class="row">
 					<div class="col-lg-4">
 						<h2>Busco Catering</h2>
 						<p>HOTELES - EMPRESAS</p>
@@ -36,9 +36,9 @@
 					<div class="col-lg-8 section-right">
 						<img src="[[ asset('img/section-mqc.png') ]]" class="img-responsive">
 					</div>
-					</div>
 				</div>
 			</div>
+		</div>
 	</div>
 </div>
 <div class="row">
@@ -125,7 +125,7 @@ O SIMPLEMENTE LLÁMANOS Y CUÉNTANOS TU HISTORIA, TUS GUSTOS Y LOS DE TU PAREJA,
 	</div>
 
 	<div class="col-lg-6 section-right">
-		<a href="#">
+		<a href="/quiero-compartir">
 			<span class="section-icon icon-share"></span>
 			<div class="section">
 				<div class="btn-section">

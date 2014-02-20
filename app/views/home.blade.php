@@ -39,7 +39,7 @@
 	</div>
 
 	<div class="col-lg-4">
-		<a href="#">
+		<a href="/busco-catering">
 			<span class="section-icon icon-catering"></span>
 			<div class="section">
 				<div class="btn-section">
@@ -53,7 +53,7 @@
 	</div>
 
 	<div class="col-lg-4 section-right">
-		<a href="#">
+		<a href="/quiero-compartir">
 			<span class="section-icon icon-share"></span>
 			<div class="section">
 				<div class="btn-section">

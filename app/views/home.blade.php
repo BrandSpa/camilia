@@ -4,7 +4,7 @@
 @section('header')
 <div class="main-slider">
 	<div class="flexslider ">
-		<img src="[[  asset('img/logo.svg') ]]" class="logo-slider">
+		<img src="[[  asset('img/logo.svg') ]]" class="logo-slider visible-lg visible-md">
 		<ul class="slides">
 			<li>
 				<img src="[[ asset('img/header-slider/1.jpg') ]]" />

@@ -2,7 +2,7 @@ $(function(){
 	$('.flexslider').flexslider({
 		animation: "slide",
 		animationLoop: true,
-		touch: true,
+		touch: false,
 		useCSS: false,
 		directionNav: false
 	});

@@ -929,3 +929,78 @@ html[xmlns] .slides {
 .flex-control-paging li a {
   background: rgba(255, 255, 255, 0.5);
 }
+#line-boutique-gallery {
+  margin-bottom: 60px;
+}
+#line-boutique-gallery .row {
+  margin-bottom: 0;
+}
+#line-boutique-gallery .gallery-text {
+  padding: 40px !important;
+}
+#line-boutique-gallery .col-lg-4 {
+  padding: 0;
+}
+#line-boutique-gallery .col-lg-4 h3 {
+  color: #b39c64;
+  font-size: 23px;
+  font-family: 'Archer-Medium';
+  display: block;
+  border-bottom: 1px #b39c64 solid;
+  text-align: center;
+}
+#line-boutique-gallery .col-lg-4 p {
+  font-family: 'AkzidenzGrotesk-LightCond';
+  font-size: 23px;
+  text-align: center;
+  line-height: 25px;
+  color: #5d5d5d;
+}
+.arrow-bottom {
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  width: 85px;
+  height: 45px;
+  background: url('../img/arrows.png');
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.arrow-left {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 45px;
+  height: 85px;
+  background: url('../img/arrows.png') -153px 0 no-repeat;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.arrow-top {
+  display: block;
+  position: absolute;
+  top: 0px;
+  width: 85px;
+  height: 45px;
+  background: url('../img/arrows.png') 0 -54px no-repeat;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.arrow-right {
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 45px;
+  height: 85px;
+  background: url('../img/arrows.png') -85px 0 no-repeat;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}

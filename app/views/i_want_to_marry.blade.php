@@ -1,6 +1,7 @@
 @section('head')
 <title>Camilia / Me quiero casar</title>
 @stop
+
 @section('header')
 <div class="main-slider">
 

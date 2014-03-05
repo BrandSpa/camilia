@@ -13,6 +13,13 @@ html{
 	margin-left:auto;
 	margin-right:auto;
 }
+
+.centerVertical(){
+	top:0;
+	bottom:0;
+	margin-top:auto;
+	margin-bottom:auto;
+}
 @font-face {
 	font-family: 'ITCFranklinGothicStd-BkCp';
 	src: url('fonts/ITCFranklinGothicStd-BkCp.eot');
@@ -738,4 +745,75 @@ html[xmlns] .slides {display: block;}
 
 .flex-control-paging li a{
 	background: rgba(255, 255, 255, 0.5)
+}
+
+
+#line-boutique-gallery{
+	margin-bottom: 60px;
+	.row{
+		margin-bottom: 0;
+	}
+	.gallery-text{
+		padding: 40px !important;
+	}
+	.col-lg-4{
+		padding: 0;
+		h3{
+			color:#B39C64;
+			font-size: 23px;
+			font-family: 'Archer-Medium';
+			display: block;
+			border-bottom: 1px #B39C64 solid;
+			text-align: center;
+		}
+		p{
+			font-family: 'AkzidenzGrotesk-LightCond';
+			font-size: 23px;
+			text-align: center;
+			line-height: 25px;
+			color:#5D5D5D;
+		}
+	}
+}
+
+
+.arrow-bottom{
+	display: block;
+	position: absolute;
+	bottom: -10px;
+	width: 85px;
+	height:45px;
+	background: url('../img/arrows.png');
+	.centerAbsolute;
+}
+
+.arrow-left{
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 45px;
+	height:85px;
+	background: url('../img/arrows.png') -153px 0 no-repeat;
+	.centerVertical;
+}
+
+
+.arrow-top{
+	display: block;
+	position: absolute;
+	top: 0px;
+	width: 85px;
+	height:45px;
+	background: url('../img/arrows.png') 0 -54px no-repeat;
+	.centerAbsolute;
+}
+
+.arrow-right{
+	display: block;
+	position: absolute;
+	right: 0;
+	width: 45px;
+	height:85px;
+	background: url('../img/arrows.png') -85px 0 no-repeat;
+	.centerVertical;
 }

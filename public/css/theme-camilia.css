@@ -951,6 +951,9 @@ html[xmlns] .slides {
     min-height: 321px;
   }
 }
+#line-boutique-gallery .col-lg-4 img {
+  margin: 0 auto;
+}
 #line-boutique-gallery .col-lg-4 h3 {
   color: #b39c64;
   font-size: 23px;

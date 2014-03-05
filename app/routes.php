@@ -15,3 +15,4 @@ Route::get('/', 'HomeController@showHome');
 Route::get('me-quiero-casar', 'HomeController@wantToMarry');
 Route::get('busco-catering', 'HomeController@searchCatering');
 Route::get('quiero-compartir', 'HomeController@wantToShare');
+Route::get('linea-boutique', 'HomeController@lineBoutique');

@@ -58,7 +58,7 @@
 		</div>
 
 		<div class="col-lg-4 col-md-4  section-right" >
-			<img src="[[ asset('img/img-lb-2.png') ]]" alt="">
+			<img src="[[ asset('img/img-lb-2.png') ]]" class="img-responsive">
 			<span class="arrow-left hidden-sm hidden-xs"></span>
 			<span class="arrow-right visible-md"></span>
 		</div>
@@ -70,7 +70,7 @@
 			</p>
 		</div>
 		<div class="col-lg-4 hidden-md hidden-sm hidden-xs">
-			<img src="[[ asset('img/img-lb-3.png') ]]" alt="">
+			<img src="[[ asset('img/img-lb-3.png') ]]" class="img-responsive">
 		</div>
 
 		<div class="col-lg-4 col-md-8 section-right gallery-text" >
@@ -81,7 +81,7 @@
 		</div>
 
 		<div class="col-lg-4 col-md-4" >
-			<img src="[[ asset('img/img-lb-4.png') ]]" alt="">
+			<img src="[[ asset('img/img-lb-4.png') ]]" class="img-responsive">
 			<span class="arrow-right hidden-sm hidden-xs"></span>
 			<span class="arrow-left hidden-lg"></span>
 		</div>
@@ -94,7 +94,7 @@
 		</div>
 
 		<div class="col-lg-4 col-md-4" >
-			<img src="[[ asset('img/img-lb-5.png') ]]" alt="">
+			<img src="[[ asset('img/img-lb-5.png') ]]" class="img-responsive">
 			<span class="arrow-top"></span>
 		</div>
 	</div>

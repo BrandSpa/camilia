@@ -18,7 +18,7 @@
 			<li><a href="#">Matrimonios</a></li>
 			<li><a href="#">Empresas</a></li>
 			<li><a href="#">Celebraciones</a></li>
-			<li><a href="#">Línea Boutique</a></li>
+			<li><a href="/linea-boutique">Línea Boutique</a></li>
 			<li><a href="#">Línea Petit</a></li>
 			<li><a href="#">Contacto</a></li>
 		</ul>
@@ -53,7 +53,7 @@
 			<li><a href="#">Matrimonios</a></li>
 			<li><a href="#">Empresas</a></li>
 			<li><a href="#">Celebraciones</a></li>
-			<li><a href="#">Línea Boutique</a></li>
+			<li><a href="/linea-boutique">Línea Boutique</a></li>
 			<li><a href="#">Línea Petit</a></li>
 			<li><a href="#">Contacto</a></li>
 		</ul>

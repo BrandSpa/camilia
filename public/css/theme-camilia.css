@@ -941,6 +941,11 @@ html[xmlns] .slides {
 #line-boutique-gallery .col-lg-4 {
   padding: 0;
 }
+@media only screen and (max-width: 529px) {
+  #line-boutique-gallery .col-lg-4 {
+    padding: 0 15px 0 15px;
+  }
+}
 @media only screen and (min-width: 1129px) {
   #line-boutique-gallery .col-lg-4 {
     min-height: 321px;

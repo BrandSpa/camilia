@@ -41,34 +41,37 @@
  <br class="hidden-xs hidden-sm">que ameritan el mejor y más exclusivo sabor.</p>
 	</div>
 </div>
+
 <div id="line-boutique-gallery">
 	<div class="row">
-		<div class="col-lg-4 section-left" >
+		<div class="col-lg-4  section-left" >
 			<img src="[[ asset('img/img-lb-1.png') ]]">
 			<span class="arrow-bottom"></span>
 		</div>
-		<div class="col-lg-4 gallery-text" >
+
+		<div class="col-lg-4 col-md-8 gallery-text" >
 			<h3>SAINT HONORE</h3>
 			<p>
 				El dulce es uno de los cinco sabores básicos y de los únicos que es aceptado de manera global por todas las culturas
 			</p>
 		</div>
-		<div class="col-lg-4 section-right" >
-			<img src="[[ asset('img/img-lb-1.png') ]]" alt="">
-			<span class="arrow-left hidden-sm hidden-xs"></span>
-				<span class="arrow-bottom hidde-lg"></span>
-		</div>
-	</div>
 
-	<div class="row">
-		<div class="col-lg-4 section-left gallery-text" >
+		<div class="col-lg-4  section-right" >
+			<img src="[[ asset('img/img-lb-2.png') ]]" alt="">
+			<span class="arrow-left hidden-sm hidden-xs"></span>
+				<span class="arrow-bottom hidden-lg"></span>
+		</div>
+
+
+
+		<div class="col-lg-4  section-left gallery-text" >
 			<h3>SAINT HONORE</h3>
 			<p>
 				El dulce es uno de los cinco sabores básicos y de los únicos que es aceptado de manera global por todas las culturas
 			</p>
 		</div>
 		<div class="col-lg-4 hidden-md hidden-sm hidden-xs">
-			<img src="[[ asset('img/img-lb-1.png') ]]" alt="">
+			<img src="[[ asset('img/img-lb-3.png') ]]" alt="">
 		</div>
 		<div class="col-lg-4 section-right gallery-text" >
 			<h3>SAINT HONORE</h3>
@@ -76,22 +79,23 @@
 				El dulce es uno de los cinco sabores básicos y de los únicos que es aceptado de manera global por todas las culturas
 			</p>
 		</div>
-	</div>
 
-	<div class="row">
+
 		<div class="col-lg-4" >
-			<img src="[[ asset('img/img-lb-1.png') ]]" alt="">
+			<img src="[[ asset('img/img-lb-4.png') ]]" alt="">
 			<span class="arrow-right hidden-sm hidden-xs"></span>
-			<span class="arrow-top hidde-lg"></span>
+			<span class="arrow-top hidden-lg"></span>
 		</div>
+
 		<div class="col-lg-4 gallery-text">
 			<h3>SAINT HONORE</h3>
 			<p>
 				El dulce es uno de los cinco sabores básicos y de los únicos que es aceptado de manera global por todas las culturas
 			</p>
 		</div>
+
 		<div class="col-lg-4" >
-			<img src="[[ asset('img/img-lb-1.png') ]]" alt="">
+			<img src="[[ asset('img/img-lb-5.png') ]]" alt="">
 			<span class="arrow-top"></span>
 		</div>
 	</div>

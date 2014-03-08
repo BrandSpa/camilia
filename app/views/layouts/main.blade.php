@@ -45,6 +45,7 @@
 	@show
 	<div class="container">
 		  @yield('content')
+		  <img src="[[ asset('img/logo-footer.png') ]]" alt="camilia logo" class="footer-logo">
 	</div>
 
 	<div id="sidr">

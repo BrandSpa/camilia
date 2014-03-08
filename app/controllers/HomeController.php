@@ -45,4 +45,11 @@ class HomeController extends BaseController {
 	{
 		$this->layout->content = View::make('line_petit');
 	}
+
+	public function contact()
+	{
+		$this->layout->content = View::make('contact');
+	}
+
+
 }

@@ -126,6 +126,7 @@
 			<a href="#" class="btn-contact">Enviar</a>
 		</form>
 	</div>
+
 	<div class="col-lg-6 section-right">
 		<div class="contact">
 			<span>CELULAR<br> (+57) 320 875 8452</span>
@@ -133,10 +134,10 @@
 			<span>DIRECCIÓN<br> Carrera 22 A # 87 - 72 / BOGOTÁ - COLOMBIA</span>
 		</div>
 		<ul class="social">
-			<li><a href="http://twitter.co" class="btn-tw"></a></li>
-			<li><a href="http://facebook.com" class="btn-fb"></a></li>
+			<li><a href="http://twitter.com" class="btn-tw" target="new"></a></li>
+			<li><a href="http://facebook.com" class="btn-fb" target="new"></a></li>
 		</ul>
 	</div>
 </div>
-<img src="[[ asset('img/logo-footer.png') ]]" alt="camilia logo" class="footer-logo">
+
 @stop

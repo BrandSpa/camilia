@@ -1,5 +1,5 @@
 @section('head')
-<title>Camilia / línea Boutique</title>
+<title>Camilia / línea Petit</title>
 @stop
 
 @section('header')

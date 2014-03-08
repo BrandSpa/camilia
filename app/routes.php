@@ -17,3 +17,4 @@ Route::get('busco-catering', 'HomeController@searchCatering');
 Route::get('quiero-compartir', 'HomeController@wantToShare');
 Route::get('linea-boutique', 'HomeController@lineBoutique');
 Route::get('linea-petit', 'HomeController@linePetit');
+Route::get('contacto', 'HomeController@contact');

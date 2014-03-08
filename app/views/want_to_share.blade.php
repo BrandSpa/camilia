@@ -42,8 +42,9 @@
 </div>
 <div class="row">
 	<div class="col-lg-12 text-section">
-		<p>PUEDES CONTACTARNOS Y VISITAR NUESTRO SALÓN DE TÉ, ALLÍ TE INVITAREMOS UNA DEGUSTACIÓN DE NUESTROS PRODUCTOS PARA MATRIMONIO,
-			O SIMPLEMENTE LLÁMANOS Y CUÉNTANOS TU HISTORIA, TUS GUSTOS Y LOS DE TU PAREJA, PARA ASÍ CREAR JUNTOS ALGO INCREÍBLE PARA TU BODA.</p>
+		<p>
+		Haz de esa celebración un momento realmente inolvidable, un cumpleaños, un festejo, un grado, cualquier motivo es bueno para acercarnos a la gente que queremos y viajar juntos por los mejores sabores, contáctanos y te daremos ideas sorprendentes.
+		</p>
 		</div>
 	</div>
 	<div class="row">

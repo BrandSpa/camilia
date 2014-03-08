@@ -43,8 +43,9 @@
 </div>
 <div class="row">
 	<div class="col-lg-12 text-section">
-		<p>PUEDES CONTACTARNOS Y VISITAR NUESTRO SALÓN DE TÉ, ALLÍ TE INVITAREMOS UNA DEGUSTACIÓN DE NUESTROS PRODUCTOS PARA MATRIMONIO,
-O SIMPLEMENTE LLÁMANOS Y CUÉNTANOS TU HISTORIA, TUS GUSTOS Y LOS DE TU PAREJA, PARA ASÍ CREAR JUNTOS ALGO INCREÍBLE PARA TU BODA.</p>
+		<p>
+			Nuestra planta de producción tiene los más altos estándares de calidad, los productos corporativos son un reflejo de las mejores marcas, contáctenos y hablaremos de negocios.
+		</p>
 	</div>
 </div>
 <div class="row">

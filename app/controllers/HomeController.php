@@ -36,8 +36,13 @@ class HomeController extends BaseController {
 		$this->layout->content = View::make('want_to_share');
 	}
 
-		public function lineBoutique()
+	public function lineBoutique()
 	{
 		$this->layout->content = View::make('line_boutique');
+	}
+
+	public function linePetit()
+	{
+		$this->layout->content = View::make('line_petit');
 	}
 }

@@ -15,12 +15,12 @@
 	<nav class="nav-top">
 		<div class="container">
 		<ul class="hidden-xs hidden-sm">
-			<li><a href="#">Matrimonios</a></li>
-			<li><a href="#">Empresas</a></li>
-			<li><a href="#">Celebraciones</a></li>
+			<li><a href="/me-quiero-casar">Matrimonios</a></li>
+			<li><a href="/busco-catering">Empresas</a></li>
+			<li><a href="/quiero-compartir">Celebraciones</a></li>
 			<li><a href="/linea-boutique">Línea Boutique</a></li>
-			<li><a href="#">Línea Petit</a></li>
-			<li><a href="#">Contacto</a></li>
+			<li><a href="/linea-petit">Línea Petit</a></li>
+			<li><a href="/contacto">Contacto</a></li>
 		</ul>
 		<a href="#" class="visible-xs visible-sm open-menu pull-left">
 			<svg version="1.1" id="Layer_1"  x="0px" y="0px" width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
@@ -50,12 +50,12 @@
 	<div id="sidr">
 		<ul>
 			<li><a href="/">Inicio</a></li>
-			<li><a href="#">Matrimonios</a></li>
-			<li><a href="#">Empresas</a></li>
-			<li><a href="#">Celebraciones</a></li>
+			<li><a href="/me-quiero-casar">Matrimonios</a></li>
+			<li><a href="/busco-catering">Empresas</a></li>
+			<li><a href="/quiero-compartir">Celebraciones</a></li>
 			<li><a href="/linea-boutique">Línea Boutique</a></li>
-			<li><a href="#">Línea Petit</a></li>
-			<li><a href="#">Contacto</a></li>
+			<li><a href="/linea-petit">Línea Petit</a></li>
+			<li><a href="/contacto">Contacto</a></li>
 		</ul>
 	</div>
 

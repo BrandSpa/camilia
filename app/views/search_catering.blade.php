@@ -1,8 +1,9 @@
 @section('head')
-<title>Camilia / Busco catering</title>
+	<title>Camilia / Busco catering</title>
 @stop
+
 @section('header')
-@include('sections._slider_header')
+	@include('sections._slider_header')
 @stop
 
 @section('content')

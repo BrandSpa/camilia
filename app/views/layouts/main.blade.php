@@ -16,11 +16,11 @@
 		<div class="container">
 		<ul class="hidden-xs hidden-sm">
 			<li><a href="/">Inicio</a></li>
+			<li><a href="/linea-boutique">Línea Boutique</a></li>
+			<li><a href="/linea-petit">Línea Petit</a></li>
 			<li><a href="/me-quiero-casar">Matrimonios</a></li>
 			<li><a href="/busco-catering">Empresas</a></li>
 			<li><a href="/quiero-compartir">Celebraciones</a></li>
-			<li><a href="/linea-boutique">Línea Boutique</a></li>
-			<li><a href="/linea-petit">Línea Petit</a></li>
 			<li><a href="/contacto">Contacto</a></li>
 		</ul>
 		<a href="#" class="visible-xs visible-sm open-menu pull-left">

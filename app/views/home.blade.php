@@ -26,6 +26,7 @@
 		</div>
 	</div>
 	<!-- end intro home -->
+	
 	@include('sections._btns_mcs')
 	@include('sections._btn_boutique')
 	@include('sections._btn_petit')

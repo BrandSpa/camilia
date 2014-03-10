@@ -24,13 +24,22 @@
 
 <!-- center columns -->
 <div class="col-lg-4 col-md-8 section-left gallery-text" >
+<div class="visible-lg">
 	<h3>Eclairs</h3>		
 	<p>
 		Tradicional de la pastelería francesa, con sabores a chocolate, café, vainilla, caramelo y sabor de temporada.
 	</p>
+	</div>
+
+	<div class="hidden-lg">
+	<h3>Tartaletas</h3>
+	<p>
+		Sabores variados como: Rochas, frutos rojos, frutos verdes, chocolate, limón, Bell Helen.
+	</p>
+	</div>
 </div>
 
-<div class="col-lg-4">
+<div class="col-lg-4 col-md-4	">
 	<img src="[[ asset('img/lb/3.jpg') ]]" class="img-responsive">
 	<span class="arrow-left visible-lg"></span>
 	<span class="arrow-right visible-md"></span>
@@ -38,11 +47,18 @@
 </div>
 
 <div class="col-lg-4 col-md-8 section-right gallery-text" >
-
+<div class="visible-lg">
 	<h3>Tartaletas</h3>
 	<p>
 		Sabores variados como: Rochas, frutos rojos, frutos verdes, chocolate, limón, Bell Helen.
 	</p>
+	</div>
+	<div class="hidden-lg">
+	<h3>Eclairs</h3>		
+	<p>
+		Tradicional de la pastelería francesa, con sabores a chocolate, café, vainilla, caramelo y sabor de temporada.
+	</p>
+	</div>		
 </div>
 <!-- end center columns -->
 
@@ -50,8 +66,8 @@
 <div class="col-lg-4 col-md-4" >
 	<img src="[[ asset('img/lb/4.jpg') ]]" class="img-responsive">
 	<span class="arrow-right visible-lg"></span>
-	<span class="arrow-left visible-md"></span>
-	<span class="arrow-top visible-sm visible-xs"></span>
+	<span class="arrow-right visible-md"></span>
+	<span class="arrow-bottom visible-sm visible-xs"></span>
 </div>
 
 <div class="col-lg-4 col-md-8 gallery-text">
@@ -65,19 +81,27 @@
 <div class="col-lg-4 col-md-4" >
 	<img src="[[ asset('img/lb/5.jpg') ]]" class="img-responsive">
 	<span class="arrow-bottom visible-lg"></span>
-	<span class="arrow-left visible-md"></span>
-	<span class="arrow-top visible-sm visible-xs"></span>
+	<span class="arrow-right visible-md"></span>
+	<span class="arrow-bottom visible-sm visible-xs"></span>
 </div>
 <!-- end bottom columns -->
 
 <!-- center columns -->
 <div class="col-lg-4 col-md-8 section-left gallery-text" >
+	<div class="visible-lg">
 	<h3>Fraisier</h3>
 	<p>
 		Entremé de musselin de aceite de olivas con fresas frescas sobre un bizcocho del mejor aceite de oliva española.
 	</p>
 </div>
-<div class="col-lg-4">
+<div class="hidden-lg">
+	<h3>Tartaleta de Limón</h3>
+	<p>
+		Una base crocante de galleta finamente compbinada con suave crema de limón. 
+	</p>
+	</div>
+</div>
+<div class="col-lg-4 col-md-4">
 	<img src="[[ asset('img/lb/6.jpg') ]]" class="img-responsive">
 	<span class="arrow-left visible-lg"></span>
 	<span class="arrow-right visible-md"></span>
@@ -85,10 +109,18 @@
 </div>
 
 <div class="col-lg-4 col-md-8 section-right gallery-text" >
-<h3>Tartaleta de Limón</h3>
+<div class="hidden-lg">
+	<h3>Fraisier</h3>
+	<p>
+		Entremé de musselin de aceite de olivas con fresas frescas sobre un bizcocho del mejor aceite de oliva española.
+	</p>
+</div>
+<div class="visible-lg">
+	<h3>Tartaleta de Limón</h3>
 	<p>
 		Una base crocante de galleta finamente compbinada con suave crema de limón. 
 	</p>
+	</div>
 	
 </div>
 <!-- end center columns -->
@@ -117,7 +149,7 @@
 <!-- end top columns -->
 
 <!-- center columns -->
-<div class="col-lg-4 col-md-8 section-left gallery-text" >
+<div class="col-lg-4 hidden-md  section-left gallery-text" >
 	
 </div>
 <div class="col-lg-4 hidden-md hidden-sm hidden-xs">

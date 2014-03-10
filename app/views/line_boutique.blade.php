@@ -20,25 +20,13 @@
 @stop
 @section('content')
 
-<div class="row">
-	<div class="col-lg-4 img-container">
-		<img src="[[ asset('img/img-title-lb.svg') ]]" class="img-responsive">
-	</div>
-	<div class="flexslider section-slider col-lg-8">
-		<ul class="slides">
-			<li>
-				<img src="[[ asset('img/boutique/1.png') ]]" />
-			</li>
-			<li>
-				<img src="[[ asset('img/boutique/1.png') ]]" />
-			</li>
-		</ul>
-	</div>
-</div>
+@include('sections._btn_boutique')
+
 <div class="row">
 	<div class="col-lg-12 intro">
-		<p>Conoce nuestra Línea Boutique para poner el broche de oro a esos momentos
- <br class="hidden-xs hidden-sm">que ameritan el mejor y más exclusivo sabor.</p>
+		<p>Postres elaborados para sorprender y degustar. Ideales para compartir, <br class="hidden-xs hidden-sm">pueden ser un detalle especial o simplemente tuyo y de nadie más. <br class="hidden-xs hidden-sm">
+Deliciosas combinaciones de sabores y texturas. <br class="hidden-xs hidden-sm">Tómate tu tiempo para disfrutar los mejores sabores del mundo. <br class="hidden-xs hidden-sm">Postres para varios o para uno, siempre encontrarás el adecuado para ese momento especial.
+</p>
 	</div>
 </div>
 
@@ -48,48 +36,6 @@
 	</div>
 </div>
 
-<div class="row">
-	<div class="col-lg-4 section-left">
-		<a href="/me-quiero-casar">
-			<span class="section-icon"></span>
-			<div class="section">
-				<div class="btn-section">
-					<h2>Me Quiero Casar</h2>
-					<p>COMPROMISOS - BODAS</p>
-					<div class="divider-sm"></div>
-					<h3>EL SELLO DULCE Y EXCLUSIVO DE TU HISTORIA DE AMOR</h3>
-				</div>
-			</div>
-		</a>
-	</div>
-
-	<div class="col-lg-4">
-		<a href="/busco-catering">
-			<span class="section-icon icon-catering"></span>
-			<div class="section">
-				<div class="btn-section">
-					<h2>Busco Catering</h2>
-					<p>HOTELES - EMPRESAS</p>
-					<div class="divider-sm"></div>
-					<h3>EL SELLO DULCE Y EXCLUSIVO DE UN SERVICIO EXCEPCIONAL</h3>
-				</div>
-			</div>
-		</a>
-	</div>
-
-	<div class="col-lg-4 section-right">
-		<a href="/quiero-compartir">
-			<span class="section-icon icon-share"></span>
-			<div class="section">
-				<div class="btn-section">
-					<h2>Quiero Compartir</h2>
-					<p>CUMPLEAÑOS - FAMILIAS</p>
-					<div class="divider-sm"></div>
-					<h3>EL SELLO DULCE Y EXCLUSIVO DE TUS MEJORES MOMENTOS</h3>
-				</div>
-			</div>
-		</a>
-	</div>
-</div>
+@include('sections._btns_mcs')
 
 @stop

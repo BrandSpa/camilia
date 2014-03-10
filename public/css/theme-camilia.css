@@ -261,7 +261,7 @@ a:hover {
   border-radius: 0;
 }
 .img-container {
-  padding: 46px 0 40px 13px;
+  padding: 46px 0 42px 13px;
   background: #191919;
 }
 @media only screen and (max-width: 529px), only screen and (min-width: 530px) and (max-width: 949px) {
@@ -343,6 +343,9 @@ a:hover {
   font-size: 25px;
   text-transform: uppercase;
   color: #fff;
+}
+.btn-contact:hover {
+  color: #BDA664;
 }
 .contact {
   float: left;
@@ -981,4 +984,8 @@ html[xmlns] .slides {
   margin: 30px 0 0 0;
   display: block;
   float: left;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #BDA664;
 }

@@ -297,7 +297,7 @@ a{
 
 
 .img-container{
-	padding: 46px 0 40px 13px;
+	padding: 46px 0 42px 13px;
 	background: #191919;
 	@media @mobile, @tablet{
 		padding: 15px;
@@ -370,6 +370,9 @@ a{
 	font-size: 25px;
 	text-transform: uppercase;
 	color:#fff;
+	&:hover{
+		color: #BDA664;
+	}
 }
 
 .contact{
@@ -834,4 +837,10 @@ height: 1px;
 margin: 30px 0 0 0;
 display: block;
 float: left;
+}
+
+
+.form-control:focus{
+	box-shadow: none;
+	border-color: #BDA664;
 }

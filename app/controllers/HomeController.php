@@ -56,5 +56,10 @@ class HomeController extends BaseController {
 		$this->layout->content = View::make('the_chef');
 	}
 
+	public function te()
+	{
+		$this->layout->content = View::make('lounge_te');
+	}
+
 
 }

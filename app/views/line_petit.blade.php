@@ -20,21 +20,8 @@
 @stop
 @section('content')
 
-<div class="row">
-	<div class="col-lg-4 img-container">
-		<img src="[[ asset('img/img-title-lp.svg') ]]" class="img-responsive">
-	</div>
-	<div class="flexslider section-slider col-lg-8">
-		<ul class="slides">
-			<li>
-				<img src="[[ asset('img/boutique/1.png') ]]" />
-			</li>
-			<li>
-				<img src="[[ asset('img/boutique/1.png') ]]" />
-			</li>
-		</ul>
-	</div>
-</div>
+@include('sections._btn_petit')
+
 <div class="row">
 	<div class="col-lg-12 intro">
 		<p>

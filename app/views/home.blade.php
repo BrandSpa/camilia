@@ -22,7 +22,11 @@
 	<!-- intro home -->
 	<div class="row">
 		<div class="col-lg-12 intro">
-			<p>Aquí trabajamos con mucho cariño para poner el broche de oro a esos momentos que ameritan <br class="hidden-xs hidden-sm">el mejor y más exclusivo sabor.</p>
+			<p>
+			Es viajar con cada bocado. Descubrir sabores de todo el mundo y de todas la épocas.<br class="hidden-xs hidden-sm"> Un recorrido nuevo en cada sabor, aroma y textura.  
+
+			
+			</p>
 		</div>
 	</div>
 	<!-- end intro home -->

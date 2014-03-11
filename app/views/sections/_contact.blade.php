@@ -21,8 +21,8 @@
 			<span>MAIL<br> avilla@camilia.co</span>
 		</div>
 		<ul class="social">
-			<li><a href="http://twitter.com" class="btn-tw" target="new"></a></li>
-			<li><a href="http://facebook.com" class="btn-fb" target="new"></a></li>
+			<li><a href="http://twitter.com/CamiliaPatisser" class="btn-tw" target="new"></a></li>
+			<li><a href="http://facebook.com/camiliapatisserie" class="btn-fb" target="new"></a></li>
 		</ul>
 	</div>
 </div>

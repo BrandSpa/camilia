@@ -221,11 +221,6 @@ a:hover {
   padding: 5px;
   color: #111;
 }
-@media only screen and (max-width: 529px), only screen and (min-width: 530px) and (max-width: 949px), only screen and (min-width: 950px) and (max-width: 1128px) {
-  .intro-border-outside {
-    margin-bottom: 60px;
-  }
-}
 .intro-border-inside {
   padding: 10px;
   border: 0.1em solid rgba(0, 0, 0, 0.37);
@@ -270,6 +265,7 @@ a:hover {
   .intro-contact p {
     margin: 0;
     width: 100%;
+    padding-bottom: 17px;
   }
 }
 .btn-section {
@@ -1060,9 +1056,11 @@ html[xmlns] .slides {
   box-shadow: none;
   border-color: #BDA664;
 }
-.no-padding {
-  padding-left: 0;
-  padding-right: 0;
+@media only screen and (min-width: 950px) and (max-width: 1128px), only screen and (min-width: 1129px) {
+  .no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 .section-msc {
   margin-bottom: 10px !important;

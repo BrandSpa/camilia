@@ -251,7 +251,7 @@ a{
 	padding: 5px;
 	color:#111;
 	@media @mobile, @tablet, @desktop{
-		margin-bottom: 60px;
+		
 	}
 }
 
@@ -292,6 +292,7 @@ a{
 		@media @mobile, @tablet{
 			margin: 0;
 			width: 100%;
+			padding-bottom: 17px;
 		}
 		text-align: center;
 		padding-right: 17px;
@@ -924,8 +925,10 @@ float: left;
 }
 
 .no-padding{
-	padding-left: 0;
+	@media @desktop, @desktop-xl{
+		padding-left: 0;
 	padding-right: 0;
+	}
 }
 
 .section-msc{

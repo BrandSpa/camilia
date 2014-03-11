@@ -20,3 +20,4 @@ Route::get('linea-petit', 'HomeController@linePetit');
 Route::get('contacto', 'HomeController@contact');
 Route::get('el-chef', 'HomeController@chef');
 Route::get('el-salon-de-te', 'HomeController@te');
+Route::post('contact', 'ContactsController@store');

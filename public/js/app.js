@@ -18,4 +18,23 @@ $(function(){
 
 	$('.open-menu').sidr();
 
+	$(document).on('click', '.btn-contact', function(e){
+		e.preventDefault();
+		$this = $(this);
+		data = $this.parent().serialize();
+
+		$.ajax({
+			type: 'POST',
+			url: '/contact',
+			data: data
+		}).done(function(data){
+			if(data.created_at)
+			{
+
+			} else {
+				console.log('error');
+			}
+		});
+	});
+
 });

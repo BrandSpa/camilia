@@ -30,9 +30,12 @@ $(function(){
 		}).done(function(data){
 			if(data.created_at)
 			{
-
+				$this.parent().fadeOut();
 			} else {
-				console.log('error');
+				$.each(data, function(key, val){
+					alertify.error(val);
+				});
+				
 			}
 		});
 	});

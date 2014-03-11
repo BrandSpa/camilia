@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-   "http://www.w3.org/TR/html4/loose.dtd">
+ "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -33,46 +33,46 @@
                 padding-left: 12px !important;
                 padding-right: 12px !important;
             }
-         }
+        }
 
     </style>
 </head>
 <body style="margin:0; padding:10px 0;" bgcolor="#f1efe1" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
 
-<br>
+    <br>
 
-<!-- 100% wrapper (grey background) -->
-<table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" bgcolor="#ebebeb">
-  <tr>
-    <td align="center" valign="top" bgcolor="#ebebeb" style="background-color: #ebebeb;">
+    <!-- 100% wrapper (grey background) -->
+    <table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" bgcolor="#ebebeb">
+      <tr>
+        <td align="center" valign="top" bgcolor="#ebebeb" style="background-color: #ebebeb;">
 
-      <!-- 600px container (white background) -->
-      <table border="0" width="600" cellpadding="0" cellspacing="0" class="container" bgcolor="#ffffff">
-        <tr>
-          <td class="container-padding" bgcolor="#ffffff" style="background-color: #ffffff; padding-left: 30px; padding-right: 30px; font-size: 14px; line-height: 20px; font-family: Helvetica, sans-serif; color: #333;">
-            <br>
-            <!-- ### BEGIN CONTENT ### -->
-            <div style="font-weight: bold; font-size: 18px; line-height: 24px; color: #BDA664">
-            Camilia
-            </div><br>
+          <!-- 600px container (white background) -->
+          <table border="0" width="600" cellpadding="0" cellspacing="0" class="container" bgcolor="#ffffff">
+            <tr>
+              <td class="container-padding" bgcolor="#ffffff" style="background-color: #ffffff; padding-left: 30px; padding-right: 30px; font-size: 14px; line-height: 20px; font-family: Helvetica, sans-serif; color: #333;">
+                <br>
+                <!-- ### BEGIN CONTENT ### -->
+                <div style="font-weight: bold; font-size: 18px; line-height: 24px; color: #BDA664">
+                    Camilia
+                </div><br>
                 Nombre: [[ $name ]]
-            <br><br>
+                <br><br>
                 Correo: [[ $email ]]
-            <br><br>
+                <br><br>
                 Mensaje: <br>[[ $text ]]
-            <br><br>
-            <em style="font-style:italic; font-size: 12px; color: #aaa;">camilia.co</em>
-            <br><br>
+                <br><br>
+                <em style="font-style:italic; font-size: 12px; color: #aaa;">camilia.co</em>
+                <br><br>
 
-            <!-- ### END CONTENT ### -->
+                <!-- ### END CONTENT ### -->
 
-          </td>
+            </td>
         </tr>
-      </table>
-      <!--/600px container -->
+    </table>
+    <!--/600px container -->
 
-    </td>
-  </tr>
+</td>
+</tr>
 </table>
 <!--/100% wrapper-->
 <br>

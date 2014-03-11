@@ -35,7 +35,7 @@ $(function(){
 			if(data.created_at)
 			{
 				$this.parent().fadeOut();
-				title.text('Gracias, pronto nos pondremos en contacto con usted');
+				title.text('Gracias, pronto nos pondremos en contacto con usted.');
 
 			} else {
 				title.text('Envíanos un Mensaje');

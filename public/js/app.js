@@ -30,7 +30,7 @@ $(function(){
 		}).done(function(data){
 			if(data.created_at)
 			{
-				$this.parent().fadeOut();
+				$this.parent().reset();
 			} else {
 				$.each(data, function(key, val){
 					alertify.error(val);

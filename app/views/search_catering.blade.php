@@ -11,7 +11,7 @@
 
 <div class="row ">
 	<div class="col-lg-12 no-padding">
-		<span class="intro-icon"></span>
+		<span class="intro-icon icon-catering"></span>
 		<div class="intro-border-outside">
 			<div class="intro-border-inside">
 				<div class="row">
@@ -53,17 +53,7 @@
 			</form>
 		</div>
 	</div>
-	<div class="col-lg-12 no-padding">
-		<div class="contact-section">
-			<span>CELULAR (+57) 320 875 8452 ·</span>
-			<span>MAIL avilla@camilia.co ·</span>
-			<span>DIRECCIÓN Carrera 22 A # 87 - 72 / BOGOTÁ - COLOMBIA</span>
-		</div>
-		<ul class="social-section">
-			<li><a href="http://twitter.com" class="btn-tw" target="new"></a></li>
-			<li><a href="http://facebook.com" class="btn-fb" target="new"></a></li>
-		</ul>
-	</div>
+@include('sections._contact_section')
 </div>
 
 

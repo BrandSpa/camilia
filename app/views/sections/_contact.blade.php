@@ -19,7 +19,6 @@
 		<div class="contact">
 			<span>CELULAR<br> (+57) 320 875 8452</span>
 			<span>MAIL<br> avilla@camilia.co</span>
-			<span>DIRECCIÓN<br> Carrera 22 A # 87 - 72 / BOGOTÁ - COLOMBIA</span>
 		</div>
 		<ul class="social">
 			<li><a href="http://twitter.com" class="btn-tw" target="new"></a></li>

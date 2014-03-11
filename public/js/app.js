@@ -22,6 +22,7 @@ $(function(){
 		e.preventDefault();
 		$this = $(this);
 		data = $this.parent().serialize();
+		title = $('.title-contact');
 
 		$.ajax({
 			type: 'POST',
@@ -34,7 +35,11 @@ $(function(){
 			if(data.created_at)
 			{
 				$this.parent().fadeOut();
+				title.text('Gracias, pronto nos pondremos en contacto con usted');
+
 			} else {
+				title.text('Envíanos un Mensaje');
+				$this.text('Enviar');
 				$.each(data, function(key, val){
 					alertify.error(val);
 				});

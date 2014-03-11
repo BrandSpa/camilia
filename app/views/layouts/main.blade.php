@@ -67,6 +67,7 @@
 <script src="[[ asset('js/jquery.flexslider-min.js') ]]"></script>
 <script src="[[ asset('js/hammer.min.js') ]]"></script>
 <script src="[[ asset('js/jquery.sidr.js') ]]"></script>
+<script src="[[ asset('js/alertify.min.js') ]]"></script>
 <script src="[[ asset('js/app.js') ]]"></script>
 @show
 </body>

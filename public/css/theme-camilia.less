@@ -97,7 +97,9 @@ a{
 }
 
 .logo-mobile{
-	margin: 12px auto;
+	margin: 12px 0;
+	position: absolute;
+	.centerAbsolute;
 	width:99px;
 	display: block;
 }
@@ -118,12 +120,12 @@ a{
 				margin-left: 0px;
 			}
 			display: inline-block;
-			margin-left: 30px;
-			font-size: 22px;
+			margin-left: 15px;
+			font-size: 18px;
 			font-family: 'AkzidenzGrotesk-LightCond';
 			text-transform: uppercase;
 			font-weight: 200;
-			padding-left: 22px;
+			padding-left: 25px;
 			background: url('../img/bullet.png') no-repeat 0 11px;
 			a{
 				color:#fff;
@@ -165,6 +167,10 @@ a{
 	padding:10px 15px;
 	line-height: 23px;
 	margin-bottom: 30px;
+	h3{
+		font-family: 'Archer-Medium';
+		margin-top: 10px;
+	}
 	ul{
 		
 
@@ -191,8 +197,8 @@ a{
 }
 
 .section{
-	font-family: 'Archer-Book';
-	border: 2px solid rgba(45, 45, 45, 0.5);
+	font-family: 'Archer-Light';
+	border: 1px solid #000;
 	padding: 5px;
 	color:#111;
 	@media @mobile, @tablet, @desktop{
@@ -241,7 +247,7 @@ a{
 
 .intro-border-outside{
 	font-family: 'Archer-Book';
-	border: 2px solid rgba(45, 45, 45, 0.5);
+	border: 1px solid #000;
 	padding: 5px;
 	color:#111;
 	@media @mobile, @tablet, @desktop{
@@ -270,8 +276,23 @@ a{
 		font-family: 'ITCFranklinGothicStd-BkCp'
 	}
 	padding: 10px;
-	border: 0.1em solid rgba(45, 45, 45, 0.3);
+	border: 0.1em solid rgba(0, 0, 0, 0.37);
 }
+
+.intro-contact{
+	padding: 17px;	
+	.form-group{
+		margin-bottom: 9px;
+	}
+	p{
+		text-align: center;
+		padding-right: 17px;
+		font-size:19px;
+		width: 80%;
+		margin:16px 0 0 33px; 
+	}
+}
+
 
 .btn-section{
 	h2{
@@ -281,23 +302,23 @@ a{
 	}
 	p{
 		color:#BDA664;
-		font-size: 24px;
+		font-size: 18px;
 		text-align: center;
 		font-family: 'ITCFranklinGothicStd-BkCp'
 	}
 	h3{
-		font-size: 26px;
+		font-size: 19px;
 		text-align: center;
 		font-family: 'ITCFranklinGothicStd-BkCp'
 	}
 	padding: 10px;
-	border: 0.1em solid rgba(45, 45, 45, 0.3);
+	border: 0.1em solid rgba(0, 0, 0, 0.37);
 }
 
 .divider-sm{
 	width: 38px;
 	height: 1px;
-	border-bottom: 2px solid #111;
+	border-bottom: 1px solid #111;
 	margin: 0 auto;
 }
 
@@ -314,10 +335,11 @@ a{
 
 
 .img-container{
-	padding: 46px 0 42px 13px;
+	min-height: 254px;
+	padding: 40px 0 32px 13px;
 	background: #191919;
-	@media @mobile, @tablet{
-		padding: 15px;
+	@media @mobile, @tablet, @desktop{
+		padding: 40px 0 15px 0;
 		margin: 0 15px 0 15px;
 	}
 	img{
@@ -342,14 +364,14 @@ a{
 	height: 145px;
 	text-align: center;
 	color:#fff;
-	font-size: 53px;
+	font-size: 50px;
 	@media @tablet{
 		font-size: 43px;
 	}
 	@media @mobile{
 		font-size: 33px;
 	}
-	font-family: 'Archer-Medium';
+	font-family: 'Archer-Light';
 
 	line-height: 145px;
 	&:hover{
@@ -552,7 +574,7 @@ a{
 	display: block;
 	margin: 0;
 	line-height: 48px;
-	border-top: 1px solid #BDA664;
+
 	border-bottom: 1px solid #BDA664;
 }
 /* line 81, ../../src/scss/sidr/_base.scss */
@@ -562,18 +584,17 @@ a{
 }
 /* line 85, ../../src/scss/sidr/_base.scss */
 .sidr ul li:hover > a, .sidr ul li:hover > span, .sidr ul li.active > a, .sidr ul li.active > span, .sidr ul li.sidr-class-active > a, .sidr ul li.sidr-class-active > span {
-	-webkit-box-shadow: inset 0 0 15px 3px #000;
-	-moz-box-shadow: inset 0 0 15px 3px #000;
-	box-shadow: inset 0 0 15px 3px #000;
+
 }
 /* line 90, ../../src/scss/sidr/_base.scss */
 .sidr ul li a, .sidr ul li span {
 	padding: 0 15px;
 	display: block;
 	font-family: 'AkzidenzGrotesk-LightCond';
-	font-size: 22px;
+	font-size: 18px;
 	text-decoration: none;
 	color: #fff;
+	text-transform: uppercase;
 }
 /* line 97, ../../src/scss/sidr/_base.scss */
 .sidr ul li ul {
@@ -861,3 +882,9 @@ float: left;
 	box-shadow: none;
 	border-color: #BDA664;
 }
+
+.no-padding{
+	padding-left: 0;
+	padding-right: 0;
+}
+

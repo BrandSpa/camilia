@@ -6,7 +6,7 @@
 				<input type="text" name="name" class="form-control" placeholder="Nombre">
 			</div>
 			<div class="form-group">
-				<input type="text" name="mail" class="form-control" placeholder="Mail">
+				<input type="text" name="mail" class="form-control" placeholder="Correo o Télefono">
 			</div>
 			<div class="form-group">
 				<textarea name="message" class="form-control" rows="3" placeholder="Mensaje"></textarea>

@@ -19,7 +19,7 @@
 			<span class="section-icon icon-catering"></span>
 			<div class="section">
 				<div class="btn-section">
-					<h2>Busco Catering</h2>
+					<h2>Busco <br>Catering</h2>
 					<p>HOTELES - EMPRESAS</p>
 					<div class="divider-sm"></div>
 					<h3>EL SELLO DULCE Y EXCLUSIVO DE UN SERVICIO EXCEPCIONAL</h3>

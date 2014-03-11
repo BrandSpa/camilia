@@ -26,16 +26,18 @@ $(function(){
 		$.ajax({
 			type: 'POST',
 			url: '/contact',
-			data: data
+			data: data,
+			beforeSend: function(){
+				$this.text('Enviando');
+			},
 		}).done(function(data){
 			if(data.created_at)
 			{
-				$this.parent().reset();
+				$this.parent().fadeOut();
 			} else {
 				$.each(data, function(key, val){
 					alertify.error(val);
 				});
-				
 			}
 		});
 	});

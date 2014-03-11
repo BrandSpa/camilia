@@ -9,7 +9,7 @@ class ContactsController extends BaseController {
 
 		if ($validator->passes()) {
 			$contact = Contact::create($inputs);
-			$data = ['name' => $contact->name, 'email' => $contact->email, 'text' => $contact->message];
+			$data = ['name' => $contact->name, 'email' => $contact->mail, 'text' => $contact->message];
 
 			Mail::send('emails.contact', $data, function($message)
 			{

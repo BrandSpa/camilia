@@ -51,10 +51,9 @@
         <tr>
           <td class="container-padding" bgcolor="#ffffff" style="background-color: #ffffff; padding-left: 30px; padding-right: 30px; font-size: 14px; line-height: 20px; font-family: Helvetica, sans-serif; color: #333;">
             <br>
-
             <!-- ### BEGIN CONTENT ### -->
-            <div style="font-weight: bold; font-size: 18px; line-height: 24px; color: #4f6a70">
-            Lucía Dalel
+            <div style="font-weight: bold; font-size: 18px; line-height: 24px; color: #BDA664">
+            Camilia
             </div><br>
                 Nombre: [[ $name ]]
             <br><br>

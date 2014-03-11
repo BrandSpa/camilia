@@ -289,6 +289,10 @@ a{
 		margin-bottom: 9px;
 	}
 	p{
+		@media @mobile, @tablet{
+			margin: 0;
+			width: 100%;
+		}
 		text-align: center;
 		padding-right: 17px;
 		font-size:19px;
@@ -448,10 +452,20 @@ a{
 	font-size: 24px;
 	float: left;
 	margin: 28px 30px 15px 25px;
+	@media @mobile, @tablet{
+		text-align: center;
+	}
 }
 
 .social-section{
-	float: left;
+	@media @mobile, @tablet{
+		width: 125px;
+		margin: 0 auto;
+	}
+	@media @desktop, @desktop-xl{
+		float: left;
+	}
+	
 	list-style: none;
 	li{
 

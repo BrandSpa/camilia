@@ -266,6 +266,12 @@ a:hover {
   width: 80%;
   margin: 16px 0 0 33px;
 }
+@media only screen and (max-width: 529px), only screen and (min-width: 530px) and (max-width: 949px) {
+  .intro-contact p {
+    margin: 0;
+    width: 100%;
+  }
+}
 .btn-section {
   padding: 10px;
   border: 0.1em solid rgba(0, 0, 0, 0.37);
@@ -424,9 +430,24 @@ a:hover {
   float: left;
   margin: 28px 30px 15px 25px;
 }
+@media only screen and (max-width: 529px), only screen and (min-width: 530px) and (max-width: 949px) {
+  .contact-section {
+    text-align: center;
+  }
+}
 .social-section {
-  float: left;
   list-style: none;
+}
+@media only screen and (max-width: 529px), only screen and (min-width: 530px) and (max-width: 949px) {
+  .social-section {
+    width: 125px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 950px) and (max-width: 1128px), only screen and (min-width: 1129px) {
+  .social-section {
+    float: left;
+  }
 }
 .social-section li {
   display: inline-block;

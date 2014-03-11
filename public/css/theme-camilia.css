@@ -1336,10 +1336,8 @@ html[xmlns] .slides {
 .alertify-log {
   background: #D9EDF7;
   padding: 8px 14px;
-  border-radius: 4px;
   color: #3A8ABF;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-  border: 1px solid #BCE8F1;
 }
 .alertify-log-error {
   color: #fff;
@@ -1348,5 +1346,4 @@ html[xmlns] .slides {
 .alertify-log-success {
   color: #468847;
   background: #DFF0D8;
-  border: 1px solid #D6E9C6;
 }

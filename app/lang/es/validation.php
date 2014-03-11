@@ -99,6 +99,8 @@ return array(
 		'price_1' => 'precio 1',
 		'price_2' => 'precio 1',
 		'message' => 'mensaje',
-		),
+		'mail' => 'correo',
+		'email' => 'correo'
+ 		),
 
 );

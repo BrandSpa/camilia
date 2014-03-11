@@ -3,21 +3,7 @@
 @stop
 
 @section('header')
-<div class="main-slider">
-	<div class="flexslider main-slider">
-	<div class="container" style="position:relative">
-		<img src="[[ asset('img/logo-section.svg') ]]" class="logo-section-slider">
-	</div>
-		<ul class="slides">
-			<li>
-				<img src="[[ asset('img/matrimonio1.jpg') ]]" />
-			</li>
-			<li>
-				<img src="[[ asset('img/header.png') ]]" />
-			</li>
-		</ul>
-	</div>
-</div>
+@include('sections._slider_header')
 @stop
 
 @section('content')
@@ -29,7 +15,7 @@
 		<div class="intro-border-outside">
 			<div class="intro-border-inside">
 				<div class="row">
-					<div class="col-lg-4">
+				<div class="col-lg-4 intro-text">
 						<h2>Me Quiero Casar</h2>
 						<p>COMPROMISOS - BODAS</p>
 						<div class="divider-sm"></div>
@@ -44,7 +30,7 @@
 	</div>
 </div>
 
-<div class="row">
+<div class="row section-msc">
 	<div class="col-lg-12 intro intro-contact">
 		<div class="col-lg-6 no-padding">
 			<p>
@@ -67,6 +53,17 @@
 				<a href="#" class="btn-contact">Enviar</a>
 			</form>
 		</div>
+	</div>
+	<div class="col-lg-12 no-padding">
+		<div class="contact-section">
+			<span>CELULAR (+57) 320 875 8452 ·</span>
+			<span>MAIL avilla@camilia.co ·</span>
+			<span>DIRECCIÓN Carrera 22 A # 87 - 72 / BOGOTÁ - COLOMBIA</span>
+		</div>
+		<ul class="social-section">
+			<li><a href="http://twitter.com" class="btn-tw" target="new"></a></li>
+			<li><a href="http://facebook.com" class="btn-fb" target="new"></a></li>
+		</ul>
 	</div>
 </div>
 

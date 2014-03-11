@@ -233,6 +233,9 @@ a:hover {
 .intro-border-inside .row {
   margin: 0;
 }
+.intro-border-inside .intro-text {
+  padding-top: 21px;
+}
 .intro-border-inside h2 {
   font-size: 40px;
   text-align: center;
@@ -240,17 +243,18 @@ a:hover {
 }
 .intro-border-inside p {
   color: #BDA664;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
   font-family: 'ITCFranklinGothicStd-BkCp';
 }
 .intro-border-inside h3 {
-  font-size: 26px;
+  font-size: 22px;
   text-align: center;
   font-family: 'ITCFranklinGothicStd-BkCp';
 }
 .intro-contact {
   padding: 17px;
+  margin-bottom: 0;
 }
 .intro-contact .form-group {
   margin-bottom: 9px;
@@ -413,6 +417,24 @@ a:hover {
   border-bottom: 1px solid #111;
   line-height: 27px;
   padding: 5px 0 5px 0;
+}
+.contact-section {
+  font-family: 'AkzidenzGrotesk-LightCond';
+  font-size: 24px;
+  float: left;
+  margin: 28px 30px 15px 25px;
+}
+.social-section {
+  float: left;
+  list-style: none;
+}
+.social-section li {
+  display: inline-block;
+}
+.social-section li a {
+  display: block;
+  width: 60px;
+  height: 60px;
 }
 .footer-logo {
   text-align: center;
@@ -1020,4 +1042,7 @@ html[xmlns] .slides {
 .no-padding {
   padding-left: 0;
   padding-right: 0;
+}
+.section-msc {
+  margin-bottom: 10px !important;
 }

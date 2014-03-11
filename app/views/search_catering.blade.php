@@ -9,13 +9,13 @@
 @section('content')
 <div class="space"></div>
 
-<div class="row">
-	<div class="col-lg-12">
+<div class="row ">
+	<div class="col-lg-12 no-padding">
 		<span class="intro-icon"></span>
 		<div class="intro-border-outside">
 			<div class="intro-border-inside">
 				<div class="row">
-					<div class="col-lg-4">
+					<div class="col-lg-4 intro-text">
 						<h2>Busco Catering</h2>
 						<p>HOTELES - EMPRESAS</p>
 						<div class="divider-sm"></div>
@@ -30,16 +30,44 @@
 		</div>
 	</div>
 </div>
+<div class="row section-msc">
+	<div class="col-lg-12 intro intro-contact">
+		<div class="col-lg-6 no-padding">
+			<p>
+				Nuestra planta de producción tiene los más altos estándares de calidad, los productos corporativos son un reflejo de las mejores marcas, contáctenos y hablaremos de negocios.
+			</p>
+		</div>
 
-<div class="row">
-	<div class="col-lg-12 text-section">
-		<p>
-			Nuestra planta de producción tiene los más altos estándares de calidad, los productos corporativos son un reflejo de las mejores marcas, contáctenos y hablaremos de negocios.
-		</p>
+		<div class="col-lg-6 no-padding ">
+			<form action="#" class="form-contact">
+				<div class="form-group">
+					<input type="text" name="name" class="form-control" placeholder="Nombre">
+				</div>
+				<div class="form-group">
+					<input type="text" name="mail" class="form-control" placeholder="Correo o Télefono">
+				</div>
+				<div class="form-group">
+					<textarea name="message" class="form-control" rows="3" placeholder="Mensaje"></textarea>
+				</div>
+				<a href="#" class="btn-contact">Enviar</a>
+			</form>
+		</div>
+	</div>
+	<div class="col-lg-12 no-padding">
+		<div class="contact-section">
+			<span>CELULAR (+57) 320 875 8452 ·</span>
+			<span>MAIL avilla@camilia.co ·</span>
+			<span>DIRECCIÓN Carrera 22 A # 87 - 72 / BOGOTÁ - COLOMBIA</span>
+		</div>
+		<ul class="social-section">
+			<li><a href="http://twitter.com" class="btn-tw" target="new"></a></li>
+			<li><a href="http://facebook.com" class="btn-fb" target="new"></a></li>
+		</ul>
 	</div>
 </div>
 
-@include('sections._contact')
+
+
 @include('sections._btn_boutique')
 @include('sections._btn_petit')
 

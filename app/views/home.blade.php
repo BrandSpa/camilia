@@ -11,7 +11,7 @@
 					<img src="[[ asset('img/header-slider/1.jpg') ]]" />
 				</li>
 				<li>
-					<img src="[[ asset('img/header-slider/1.jpg') ]]" />
+					<img src="[[ asset('img/header-slider/2.jpg') ]]" />
 				</li>
 			</ul>
 		</div>

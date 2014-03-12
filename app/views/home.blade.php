@@ -26,7 +26,7 @@
 				¿Qué es Trip Trip Trip Patisserie?
 			</h3>
 			<p>
-			Es viajar con cada bocado. Descubrir sabores de todo el mundo y de todas la épocas.<br class="hidden-xs hidden-sm"> Un recorrido nuevo en cada sabor, aroma y textura.  
+			Es viajar con cada bocado. Descubrir sabores de todo el mundo y de todas las épocas.<br class="hidden-xs hidden-sm"> Un recorrido nuevo en cada sabor, aroma y textura.  
 
 			
 			</p>

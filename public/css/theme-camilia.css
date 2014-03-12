@@ -114,17 +114,28 @@ a:hover {
 .logo-slider {
   position: absolute;
   z-index: 1;
-  top: 50px;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
 }
+@media only screen and (min-width: 530px) and (max-width: 949px), only screen and (min-width: 950px) and (max-width: 1128px) {
+  .logo-slider {
+    width: 150px;
+  }
+}
 .logo-section-slider {
   position: absolute;
   z-index: 1;
-  top: 40px;
-  left: 0;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 25%;
 }
 .intro {
   color: #000;
@@ -168,12 +179,15 @@ a:hover {
   padding: 5px;
   color: #111;
 }
-@media only screen and (max-width: 529px), only screen and (min-width: 530px) and (max-width: 949px), only screen and (min-width: 950px) and (max-width: 1128px) {
+@media only screen and (max-width: 529px), only screen and (min-width: 530px) and (max-width: 949px) {
   .section {
     margin-bottom: 60px;
   }
 }
-@media only screen and (max-width: 529px), only screen and (min-width: 530px) and (max-width: 949px) {
+.section-last {
+  margin-bottom: 0 !important;
+}
+@media only screen and (max-width: 529px), only screen and (min-width: 530px) and (max-width: 949px), only screen and (min-width: 950px) and (max-width: 1128px) {
   .section-slider {
     margin: 0 15px 0 15px !important;
   }
@@ -201,7 +215,7 @@ a:hover {
   height: 64px;
   background: url('../img/sprite.png') no-repeat -18px -3px;
 }
-@media only screen and (min-width: 530px) and (max-width: 949px), only screen and (max-width: 529px) {
+@media only screen and (min-width: 530px) and (max-width: 949px), only screen and (max-width: 529px), only screen and (min-width: 950px) and (max-width: 1128px) {
   .intro-icon {
     left: 0;
     right: 0;
@@ -266,6 +280,11 @@ a:hover {
     margin: 0;
     width: 100%;
     padding-bottom: 17px;
+  }
+}
+@media only screen and (min-width: 950px) and (max-width: 1128px), only screen and (min-width: 530px) and (max-width: 949px) {
+  .intro-img-section img {
+    margin: 0 auto;
   }
 }
 .btn-section {

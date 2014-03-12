@@ -21,7 +21,7 @@
 						<div class="divider-sm"></div>
 						<h3>EL SELLO DULCE Y EXCLUSIVO DE TU HISTORIA DE AMOR</h3>
 					</div>
-					<div class="col-lg-8 section-right">
+					<div class="col-lg-8 section-right intro-img-section">
 						<img src="[[ asset('img/section-mqc.png') ]]" class="img-responsive">
 					</div>
 				</div>
@@ -64,7 +64,7 @@
 <div class="more-space"></div>
 
 <div class="row">
-	<div class="col-lg-6 section-left">
+	<div class="col-lg-6 col-md-6 section-left">
 		<a href="/busco-catering">
 			<span class="section-icon icon-catering"></span>
 			<div class="section">
@@ -78,10 +78,10 @@
 		</a>
 	</div>
 
-	<div class="col-lg-6 section-right">
+	<div class="col-lg-6 col-md-6 section-right ">
 		<a href="/quiero-compartir">
 			<span class="section-icon icon-share"></span>
-			<div class="section">
+			<div class="section section-last">
 				<div class="btn-section">
 					<h2>Quiero Compartir</h2>
 					<p>CUMPLEAÑOS - FAMILIAS</p>

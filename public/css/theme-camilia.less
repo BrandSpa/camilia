@@ -87,7 +87,6 @@ a{
 	@media  @desktop-xl{
 		padding-left: 0;
 	}
-
 }
 
 .section-right{
@@ -148,15 +147,18 @@ a{
 .logo-slider{
 	position: absolute;
 	z-index: 1;
-	top:50px;
+	.centerVertical;
 	.centerAbsolute();
+	@media @tablet, @desktop{
+		width: 150px;
+	}
 }
 
 .logo-section-slider{
 	position: absolute;
 	z-index: 1;
-	top:40px;
-	left: 0;
+	.centerVertical;
+	left: 25%;
 }
 .intro{
 	color: #000;
@@ -201,13 +203,17 @@ a{
 	border: 1px solid #000;
 	padding: 5px;
 	color:#111;
-	@media @mobile, @tablet, @desktop{
+	@media @mobile, @tablet{
 		margin-bottom: 60px;
 	}
 }
 
+.section-last{
+	margin-bottom: 0 !important;
+}
+
 .section-slider{
-	@media @mobile, @tablet{
+	@media @mobile, @tablet, @desktop{
 		margin: 0 15px 0 15px !important;
 	}
 }
@@ -232,7 +238,7 @@ a{
 	width:64px;
 	height: 64px;
 	background: url('../img/sprite.png') no-repeat -18px -3px;
-	@media @tablet, @mobile{
+	@media @tablet, @mobile, @desktop{
 		.centerAbsolute();
 	}
 }
@@ -302,7 +308,14 @@ a{
 	}
 }
 
-
+.intro-img-section{
+	img{
+		@media @desktop, @tablet{
+		margin: 0 auto;
+	}
+	}
+	
+}
 .btn-section{
 	h2{
 		font-size: 40px;

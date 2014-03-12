@@ -76,7 +76,7 @@
 		<div class="col-lg-6 section-right">
 			<a href="/busco-catering">
 				<span class="section-icon icon-share"></span>
-				<div class="section">
+				<div class="section section-last">
 					<div class="btn-section">
 						<h2>Busco Catering</h2>
 						<p>HOTELES - EMPRESAS</p>

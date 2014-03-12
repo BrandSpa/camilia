@@ -31,7 +31,7 @@
 	<div class="col-lg-4 section-right">
 		<a href="/quiero-compartir">
 			<span class="section-icon icon-share"></span>
-			<div class="section">
+			<div class="section section-last">
 				<div class="btn-section">
 					<h2>Quiero Compartir</h2>
 					<p>CUMPLEAÑOS - FAMILIAS</p>

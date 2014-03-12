@@ -3,9 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="shortcut icon" href="favicon.png" type="image/png" />
+	<meta name="google-site-verification" content="lYSHlii2K0OTnU5TYF6Kjhs_PmcqdleCPQbocUkA_bc" />
 	@section('head')
 	@show
+	<link rel="shortcut icon" href="favicon.png" type="image/png" />
+	
 
 	@section('styles')
 	<link rel="stylesheet" href="[[ asset('css/bootstrap.min.css') ]]">

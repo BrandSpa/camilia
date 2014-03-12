@@ -14,7 +14,7 @@
 			<div class="intro-border-inside">
 				<div class="row">
 					<div class="col-lg-4">
-						<h2>Quiero Compartir</h2>
+						<h1>Quiero Compartir</h1>
 						<p>CUMPLEAÑOS - FAMILIAS</p>
 						<div class="divider-sm"></div>
 						<h3>EL SELLO DULCE Y EXCLUSIVO DE TUS MEJORES MOMENTOS</h3>

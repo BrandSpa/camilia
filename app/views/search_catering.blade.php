@@ -16,7 +16,7 @@
 			<div class="intro-border-inside">
 				<div class="row">
 					<div class="col-lg-4 intro-text">
-						<h2>Busco Catering</h2>
+						<h1>Busco Catering</h1>
 						<p>HOTELES - EMPRESAS</p>
 						<div class="divider-sm"></div>
 						<h3>EL SELLO DULCE Y EXCLUSIVO DE UN SERVICIO EXCEPCIONAL</h3>

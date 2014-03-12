@@ -1,4 +1,5 @@
 @section('head')
+<meta name="description" content="">
 <title>Camilia / Me quiero casar</title>
 @stop
 
@@ -16,7 +17,7 @@
 			<div class="intro-border-inside">
 				<div class="row">
 				<div class="col-lg-4 intro-text">
-						<h2>Me Quiero Casar</h2>
+						<h1>Me Quiero Casar</h1>
 						<p>COMPROMISOS - BODAS</p>
 						<div class="divider-sm"></div>
 						<h3>EL SELLO DULCE Y EXCLUSIVO DE TU HISTORIA DE AMOR</h3>

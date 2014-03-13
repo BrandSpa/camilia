@@ -13,8 +13,8 @@ class ContactsController extends BaseController {
 
 			Mail::send('emails.contact', $data, function($message)
 			{
-				$message->to('alejandro@brandspa.com', 'Lucía dalel')->subject('Contacto camilia.co');
-				$message->to('alejandro@brandspa.com', 'Lucía dalel')->subject('Contacto camilia.co');
+				$message->to('alejandro@brandspa.com', 'Camilia')->subject('Contacto camilia.co');
+				$message->to('chef@camilia.co', 'Camilia')->subject('Contacto camilia.co');
 			});
 
 			return Response::json($contact);

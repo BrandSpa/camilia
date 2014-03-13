@@ -11,10 +11,7 @@
 
 <div class="row">
 	<div class="col-lg-12 intro">
-		<p>
-			Para eventos, reuniones corporativas o con los amigos, para un cumpleaños, primera comunión, bautizo, fechas especiales y matrimonios. 
-Postres para deleitar a tus invitados. Pequeños bocados de los más exquisitos sabores, hechos a base de frutas, cremas y chocolates. El detalle que hará de tus eventos, los más recordados.
-		</p>
+		<p>Para eventos, reuniones corporativas o con los amigos, para un cumpleaños, primera comunión, bautizo, fechas especiales y matrimonios. Postres para deleitar a tus invitados. Pequeños bocados de los más exquisitos sabores, hechos a base de frutas, cremas y chocolates. El detalle que hará de tus eventos, los más recordados.</p>
 	</div>
 </div>
 

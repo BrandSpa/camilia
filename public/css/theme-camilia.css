@@ -151,6 +151,10 @@ a:hover {
   font-family: 'Archer-Medium';
   margin-top: 10px;
 }
+.intro h1 {
+  font-family: 'Archer-Medium';
+  margin-top: 10px;
+}
 .intro ul {
   text-align: left;
   list-style: none;

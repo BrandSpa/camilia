@@ -82,5 +82,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="[[ asset('js/alertify.min.js') ]]"></script>
 <script src="[[ asset('js/app.js') ]]"></script>
 @show
+<img src="[[ asset('img/phone.png') ]]" alt="camilia phone" class="phone">
 </body>
 </html>

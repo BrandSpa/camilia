@@ -6,10 +6,13 @@
 
 		<ul class="slides">
 			<li>
-				<img src="[[ asset('img/header.png') ]]" />
+				<img src="[[ asset('img/header-slider/7.jpg') ]]" />
 			</li>
 			<li>
-				<img src="[[ asset('img/header.png') ]]" />
+				<img src="[[ asset('img/header-slider/3.jpg') ]]" />
+			</li>
+			<li>
+				<img src="[[ asset('img/header-slider/5.jpg') ]]" />
 			</li>
 		</ul>
 	</div>

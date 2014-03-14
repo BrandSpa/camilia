@@ -46,6 +46,14 @@ a {
 a:hover {
   text-decoration: none;
 }
+.phone {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
 @media only screen and (min-width: 1129px) {
   .container {
     width: 960px;

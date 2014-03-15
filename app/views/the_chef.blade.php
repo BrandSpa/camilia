@@ -14,8 +14,8 @@
 			La Chef María Camila Baquero, ha recorrido el mundo buscando que cada bocado sea toda una experiencia. Sabores y texturas de diferentes culturas harán que los sentidos nos lleven a lugares inimaginables a través de su pastelería.
 		</p>
 		<ul>
-			<li>2011. Chef Le Cordon Bleu Paris</li>
-			<li>2009. Ingeniera Industrial Universidad de los Andes Bogotá</li>
+			<li>2012. Le Cordon Bleu Paris, Grand Diplôme</li>
+			<li>2011. Ingeniera Industrial Universidad de los Andes Bogotá</li>
 		</ul>
 	</div>
 

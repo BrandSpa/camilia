@@ -1,6 +1,6 @@
 <div class="main-slider">
 	<div class="flexslider main-slider">
-		<div class="container-logo-slider">
+		<div class="container-logo-slider visible-lg">
 			<img src="[[ asset('img/logo-section.svg') ]]" class="logo-section-slider">
 		</div>
 

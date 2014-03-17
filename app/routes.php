@@ -16,7 +16,7 @@ Route::get('me-quiero-casar', 'HomeController@wantToMarry');
 Route::get('busco-catering', 'HomeController@searchCatering');
 Route::get('quiero-compartir', 'HomeController@wantToShare');
 Route::get('linea-boutique', 'HomeController@lineBoutique');
-Route::get('linea-petit', 'HomeController@li	nePetit');
+Route::get('linea-petit', 'HomeController@linePetit');
 Route::get('contacto', 'HomeController@contact');
 Route::get('el-chef', 'HomeController@chef');
 Route::get('el-salon-de-te', 'HomeController@te');

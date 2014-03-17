@@ -10,10 +10,10 @@
 	
 
 	@section('styles')
-	<link rel="stylesheet" href="[[ asset('css/bootstrap.min.css') ]]">
+		<link rel="stylesheet" href="[[ asset('bower_components/bootstrap/dist/css/bootstrap.css') ]]">
 	<link rel="stylesheet" href="[[ asset('css/theme-camilia.css') ]]">
 	<link rel="stylesheet" href="[[ asset('bower_components/summernote/summernote-dist/summernote.css') ]]">
-	<link rel="stylesheet" href="[[ asset('bower_components/bootstrap/dist/css/bootstrap.css') ]]">
+
 	@show
 </head>
 <body>

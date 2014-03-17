@@ -13,6 +13,9 @@
 				<li>
 					<img src="[[ asset('img/header-slider/2.jpg') ]]" />
 				</li>
+				<li>
+					<img src="[[ asset('img/header-slider/8.jpg') ]]" />
+				</li>
 			</ul>
 		</div>
 	</div>

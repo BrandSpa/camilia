@@ -3,14 +3,13 @@
 @stop
 
 @section('header')
-<div class="row">
+
 	<img src="[[ asset('img/salon-te/header.jpg') ]]" class="img-responsive">
-</div>
 
 @stop
 
 @section('content')
-
+<div class="row"></div>
 <div id="line-boutique-gallery">
 	<div class="row">
 		<!-- top columns -->

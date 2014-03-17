@@ -1,3 +1,7 @@
+@section('head')
+	<title>Camilia / Blog</title>
+@stop
+
 @section('header')
 	@include('sections._slider_header')
 @stop
@@ -9,7 +13,7 @@
 		<div class="col-lg-12">
 			<a href="/blog/[[ str_replace(' ', '-', $post->title) ]]"><img src="[[ $post->image ]]" alt="[[ $post->title ]]" class="img-responsive"></a>
 			<h1><a href="/blog/[[ str_replace(' ', '-', $post->title) ]]">[[ $post->title ]]</a></h1>
-		<p>[[ str_limit($post->description, $limit = 150, $end = '...') ]]</p>
+		<p>[[ str_limit($post->description, $limit = 300, $end = '...') ]]</p>
 		<hr>
 		</div>
 		

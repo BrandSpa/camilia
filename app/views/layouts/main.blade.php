@@ -81,6 +81,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="[[ asset('js/jquery.sidr.js') ]]"></script>
 <script src="[[ asset('js/alertify.min.js') ]]"></script>
 <script src="[[ asset('js/app.js') ]]"></script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=1478858265659068";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 @show
 <img src="[[ asset('img/phone.png') ]]" alt="camilia phone" class="phone">
 </body>

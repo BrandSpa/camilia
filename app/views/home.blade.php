@@ -33,4 +33,19 @@
 	@include('sections._btn_petit')
 	@include('sections._btns_ct')
 	@include('sections._contact')
+	<script>
+		$('.summernote').summernote({
+			toolbar: [
+    //['style', ['style']], // no style button
+    ['style', ['bold', 'italic', 'underline', 'clear']],
+    ['fontsize', ['fontsize']],
+    ['color', ['color']],
+    ['para', ['ul', 'ol', 'paragraph']],
+    ['height', ['height']],
+    //['insert', ['picture', 'link']], // no insert buttons
+    //['table', ['table']], // no table button
+    //['help', ['help']] //no help button
+    ]
+});
+	</script>
 @stop

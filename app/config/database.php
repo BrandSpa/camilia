@@ -54,10 +54,11 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => '127.0.0.1',
+			'host'      => 'localhost',
 			'database'  => 'camilia_site',
 			'username'  => 'root',
-			'password'  => '0PT1M4.cc',
+			// 'password'  => '0PT1M4.cc',
+			'password'  => 'root',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

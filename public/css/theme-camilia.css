@@ -1378,3 +1378,20 @@ html[xmlns] .slides {
   color: #468847;
   background: #DFF0D8;
 }
+#posts h1 {
+  font-family: 'Archer-Medium';
+  font-size: 28px;
+  color: #000;
+}
+#posts h1 a {
+  color: #000;
+}
+#posts p {
+  font-size: 20px;
+  font-family: 'AkzidenzGrotesk-LightCond';
+  color: #666665;
+  line-height: 1.2;
+}
+#posts hr {
+  border-color: #B39C64;
+}

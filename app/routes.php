@@ -28,6 +28,6 @@ Route::get('blog', ['as' => 'blog', 'uses' => 'BlogController@index']);
 
 Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function()
 {
-	Route::get('blog', 'BlogController@index');
+	Route::resource('blog', 'BlogController');
 });
 

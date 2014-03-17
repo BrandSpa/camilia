@@ -12,6 +12,8 @@
 	@section('styles')
 	<link rel="stylesheet" href="[[ asset('css/bootstrap.min.css') ]]">
 	<link rel="stylesheet" href="[[ asset('css/theme-camilia.css') ]]">
+	<link rel="stylesheet" href="[[ asset('bower_components/summernote/summernote-dist/summernote.css') ]]">
+	<link rel="stylesheet" href="[[ asset('bower_components/bootstrap/dist/css/bootstrap.css') ]]">
 	@show
 </head>
 <body>
@@ -75,12 +77,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 @section('scripts')
 <script src="[[ asset('js/jquery.min.js') ]]"></script>
-<script src="[[ asset('js/bootstrap.min.js') ]]"></script>
+<script src="[[ asset('bower_components/bootstrap/dist/js/bootstrap.min.js') ]]"></script>
 <script src="[[ asset('js/jquery.flexslider-min.js') ]]"></script>
 <script src="[[ asset('js/hammer.min.js') ]]"></script>
 <script src="[[ asset('js/jquery.sidr.js') ]]"></script>
 <script src="[[ asset('js/alertify.min.js') ]]"></script>
 <script src="[[ asset('js/app.js') ]]"></script>
+<script src="[[ asset('bower_components/summernote/summernote-dist/summernote.min.js') ]]"></script>
+
+<script>
+	$('.summernote').summernote({
+  toolbar: [
+    //['style', ['style']], // no style button
+    ['style', ['bold', 'italic', 'underline', 'clear']],
+    ['fontsize', ['fontsize']],
+    ['color', ['color']],
+    ['para', ['ul', 'ol', 'paragraph']],
+    ['height', ['height']],
+    //['insert', ['picture', 'link']], // no insert buttons
+    //['table', ['table']], // no table button
+    //['help', ['help']] //no help button
+  ]
+});
+</script>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];

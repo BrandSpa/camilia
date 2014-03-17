@@ -12,7 +12,7 @@
 	
 		<div class="col-lg-12">
 			<h1>[[ $post->title ]]</h1>
-		<p> [[ str_limit($post->description, $limit = 150, $end = '...') ]]</p>
+		<p>[[ $post->description ]]</p>
 		<div class="fb-like" data-href="http://camilia.co/blog/[[ str_replace(' ', '-', $post->title) ]]" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
 		<hr>
 		</div>

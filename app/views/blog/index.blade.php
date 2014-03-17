@@ -9,7 +9,7 @@
 		<div class="col-lg-12">
 			<a href="/blog/[[ str_replace(' ', '-', $post->title) ]]"><img src="[[ $post->image ]]" alt="[[ $post->title ]]" class="img-responsive"></a>
 			<h1><a href="/blog/[[ str_replace(' ', '-', $post->title) ]]">[[ $post->title ]]</a></h1>
-		<p>[[ $post->description ]]</p>
+		<p>[[ str_limit($post->description, $limit = 150, $end = '...') ]]</p>
 		<hr>
 		</div>
 		

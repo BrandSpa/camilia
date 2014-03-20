@@ -25,9 +25,9 @@
 <!-- center columns -->
 <div class="col-lg-4 col-md-8 section-left gallery-text" >
 	<div class="visible-lg">
-		<h3>Frumas</h3>		
+		<h3>Sasaff</h3>		
 		<p>
-			Variedad de sabores según disponibilidad de "gomas" a base de pulpa de fruta fresca.
+			Mousse de azafrán montado en financier a la naranja y amapola.
 		</p>
 
 	</div>
@@ -53,9 +53,9 @@
 		</p>
 	</div>
 	<div class="hidden-lg">
-<h3>Frumas</h3>		
+<h3>Sasaff</h3>		
 		<p>
-			Variedad de sabores según disponibilidad de "gomas" a base de pulpa de fruta fresca.
+			Mousse de azafrán montado en financier a la naranja y amapola.
 		</p>
 	</div>
 </div>
@@ -69,7 +69,11 @@
 	<span class="arrow-bottom visible-sm visible-xs"></span>
 </div>
 
-<div class="col-lg-4 col-md-8 gallery-text">
+<div class="col-lg-4 col-md-8 gallery-text two-text">
+	<h3>Frumas</h3>
+	<p>
+		Variedad de sabores según disponibilidad de "gomas" a base de pulpa de fruta fresca.
+	</p>
 	<h3>Guimove</h3>
 	<p>
 		Suaves marshmellows de limón o del sabor deseado.

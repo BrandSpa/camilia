@@ -13,8 +13,9 @@
 		<link rel="stylesheet" href="[[ asset('bower_components/bootstrap/dist/css/bootstrap.css') ]]">
 	<link rel="stylesheet" href="[[ asset('css/theme-camilia.css') ]]">
 	<link rel="stylesheet" href="[[ asset('bower_components/summernote/summernote-dist/summernote.css') ]]">
-
+	@section('stylesheet')
 	@show
+
 </head>
 <body>
 <!-- Google Tag Manager -->
@@ -75,7 +76,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	</ul>
 </div>
 
-@section('scripts')
+
 <script src="[[ asset('js/jquery.min.js') ]]"></script>
 <script src="[[ asset('bower_components/bootstrap/dist/js/bootstrap.min.js') ]]"></script>
 <script src="[[ asset('js/jquery.flexslider-min.js') ]]"></script>
@@ -84,7 +85,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="[[ asset('js/alertify.min.js') ]]"></script>
 <script src="[[ asset('js/app.js') ]]"></script>
 <script src="[[ asset('bower_components/summernote/summernote-dist/summernote.min.js') ]]"></script>
-
+@section('scripts')
+@show
 <script>
 	$('.summernote').summernote({
   toolbar: [

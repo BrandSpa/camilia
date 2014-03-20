@@ -6,6 +6,14 @@ ul{
 	padding: 0;
 	margin: 0;
 }
+
+a{
+	-webkit-font-smoothing: subpixel-antialiased;
+	&:hover{
+		text-decoration: none;
+	}
+}
+
 @mobile:      ~"only screen and (max-width: 529px)";
 @tablet:      ~"only screen and (min-width: 530px) and (max-width: 949px)";
 @desktop:     ~"only screen and (min-width: 950px) and (max-width: 1128px)";
@@ -24,6 +32,13 @@ ul{
 	margin-top:auto;
 	margin-bottom:auto;
 }
+
+
+/*
+|-------------------------------------------------------------------------
+|	Fonts
+|-------------------------------------------------------------------------
+*/
 @font-face {
 	font-family: 'ITCFranklinGothicStd-BkCp';
 	src: url('fonts/ITCFranklinGothicStd-BkCp.eot');
@@ -65,12 +80,6 @@ ul{
 	font-style: normal;
 }
 
-a{
-	-webkit-font-smoothing: subpixel-antialiased;
-	&:hover{
-		text-decoration: none;
-	}
-}
 
 .phone{
 	position: fixed;
@@ -111,6 +120,7 @@ a{
 .open-menu{
 	margin-top: 5px;
 }
+
 .nav-top{
 	background: #191919;
 	height: 60px;
@@ -122,14 +132,15 @@ a{
 			&:first-child{
 				background: transparent;
 				margin-left: 0px;
+				padding-left: 0;
 			}
 			display: inline-block;
-			margin-left: 15px;
+			margin-left: 18px;
 			font-size: 18px;
 			font-family: 'AkzidenzGrotesk-LightCond';
 			text-transform: uppercase;
 			font-weight: 200;
-			padding-left: 25px;
+			padding-left: 28px;
 			background: url('../img/bullet.png') no-repeat 0 11px;
 			a{
 				color:#fff;

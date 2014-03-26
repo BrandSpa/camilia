@@ -53,7 +53,7 @@
 		</p>
 	</div>
 	<div class="hidden-lg">
-<h3>Sasaff</h3>		
+		<h3>Sasaff</h3>		
 		<p>
 			Mousse de azafrán montado en financier a la naranja y amapola.
 		</p>
@@ -91,16 +91,17 @@
 <!-- center columns -->
 <div class="col-lg-4 col-md-8 section-left gallery-text" >
 	<div class="visible-lg">
-	<h3>Leche Frita Banane</h3>
-	<p>
-		Suave flan de banano sobre un fino bizcocho de avellana.
-	</p>
+	<h3>Macassar</h3>
+		<p>
+			Gelatina a la limonaria con trozos de gelatina de mango, streussel de panela y mousse de chocolate de leche a la limonaria.
+		</p>
+		
 	</div>
 	<div class="hidden-lg">
-	<h3>Macassar</h3>
-	<p>
-		Gelatina a la limonaria con trozos de gelatina de mango, streussel de panela y mousse de chocolate de leche a la limonaria.
-	</p>
+<h3>Leche Frita Banane</h3>
+		<p>
+			Suave flan de banano sobre un fino bizcocho de avellana.
+		</p>
 	</div>
 </div>
 <div class="col-lg-4 col-md-4">
@@ -111,17 +112,18 @@
 </div>
 
 <div class="col-lg-4 col-md-8 section-right gallery-text" >
-<div class="visible-lg">
+	<div class="visible-lg">
+		<h3>Leche Frita Banane</h3>
+		<p>
+			Suave flan de banano sobre un fino bizcocho de avellana.
+		</p>
+	</div>
+	<div class="hidden-lg">
 	<h3>Macassar</h3>
-	<p>
-		Gelatina a la limonaria con trozos de gelatina de mango, streussel de panela y mousse de chocolate de leche a la limonaria.
-	</p>
-</div>
-<div class="hidden-lg">
-	<h3>Leche Frita Banane</h3>
-	<p>
-		Suave flan de banano sobre un fino bizcocho de avellana.
-	</p>
+		<p>
+			Gelatina a la limonaria con trozos de gelatina de mango, streussel de panela y mousse de chocolate de leche a la limonaria.
+		</p>
+		
 	</div>
 </div>
 <!-- end center columns -->
@@ -151,14 +153,14 @@
 
 <!-- center columns -->
 <div class="col-lg-4 col-md-8 section-left gallery-text" >
-<div class="visible-lg">
-<h3>Base Basique</h3>
-<p>Base de bizcocho, crema vanillada, centro de fresa.</p>
-</div>
-<div class="hidden-lg">
-<h3>Guayaba Royal</h3>
-<p> Una nueva forma de degustar la tradicional fruta. Elegante crema y crocante de guayaba, chifón de vainilla y chocolate blanco.</p>
-</div>
+	<div class="visible-lg">
+		<h3>Base Basique</h3>
+		<p>Base de bizcocho, crema vanillada, centro de fresa.</p>
+	</div>
+	<div class="hidden-lg">
+		<h3>Guayaba Royal</h3>
+		<p> Una nueva forma de degustar la tradicional fruta. Elegante crema y crocante de guayaba, chifón de vainilla y chocolate blanco.</p>
+	</div>
 </div>
 <div class="col-lg-4 col-md-4">
 	<img src="[[ asset('img/lp/9.jpg') ]]" class="img-responsive">
@@ -168,16 +170,16 @@
 </div>
 
 <div class="col-lg-4 col-md-8 section-right gallery-text" >
-<div class="visible-lg">
-	<h3>Guayaba Royal</h3>
-	<p>
-		Una nueva forma de degustar la tradicional fruta. Elegante crema y crocante de guayaba, chifón de vainilla y chocolate blanco.
-	</p>
-</div>
-<div class="hidden-lg">
-	<h3>Base Basique</h3>
-<p>Base de bizcocho, crema vanillada, centro de fresa.</p>
-</div>
+	<div class="visible-lg">
+		<h3>Guayaba Royal</h3>
+		<p>
+			Una nueva forma de degustar la tradicional fruta. Elegante crema y crocante de guayaba, chifón de vainilla y chocolate blanco.
+		</p>
+	</div>
+	<div class="hidden-lg">
+		<h3>Base Basique</h3>
+		<p>Base de bizcocho, crema vanillada, centro de fresa.</p>
+	</div>
 </div>
 <!-- end center columns -->
 
@@ -190,10 +192,10 @@
 </div>
 
 <div class="col-lg-4 col-md-8 gallery-text">
-	<h3>Trufa Contraste</h3>
-	<p>
-		Trufa cítrica a base de chocolate blanco para acompañar con sales.
-	</p>
+	<h3>Meyer Lemon Cream</h3>
+		<p>
+			Base de "tierra" de chocolate, crema de limón, compota de arándano (blueberry).
+		</p>
 </div>
 
 <div class="col-lg-4 col-md-4" >
@@ -213,10 +215,11 @@
 		</p>
 	</div>
 	<div class="hidden-lg">
-	<h3>Meyer Lemon Cream</h3>
+	<h3>Trufa Contraste</h3>
 	<p>
-		Base de "tierra" de chocolate, crema de limón, compota de arándano (blueberry).
+		Trufa cítrica a base de chocolate blanco para acompañar con sales.
 	</p>
+		
 	</div>
 </div>
 <div class="col-lg-4 col-md-4">
@@ -227,17 +230,17 @@
 </div>
 
 <div class="col-lg-4 col-md-8 section-right gallery-text" >
-<div class="visible-lg">
-	<h3>Meyer Lemon Cream</h3>
+	<div class="visible-lg">
+		<h3>Trufa Contraste</h3>
 	<p>
-		Base de "tierra" de chocolate, crema de limón, compota de arándano (blueberry).
+		Trufa cítrica a base de chocolate blanco para acompañar con sales.
 	</p>
-</div>
-<div class="hidden-lg">
-	<h3>Cadaquez Passiflore</h3>
-	<p>
-		Sabayón pasión, mousse de coco, merengue crocante de avellanas.
-	</p>
+	</div>
+	<div class="hidden-lg">
+		<h3>Cadaquez Passiflore</h3>
+		<p>
+			Sabayón pasión, mousse de coco, merengue crocante de avellanas.
+		</p>
 	</div>
 </div>
 

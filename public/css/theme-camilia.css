@@ -337,7 +337,7 @@ a:hover {
 |-------------------------------------------------------------------------
 */
 .form-control {
-  height: 24px;
+  height: 38px;
   border-radius: 0;
 }
 .img-container {
@@ -415,6 +415,9 @@ a:hover {
   font-size: 18px;
   color: #000;
 }
+.form-contact input.form-control {
+  height: 27px;
+}
 .btn-contact {
   display: block;
   padding: 3px 0 3px 15px;
@@ -432,7 +435,7 @@ a:hover {
   float: left;
   margin-top: 45px;
   font-family: 'AkzidenzGrotesk-LightCond';
-  font-size: 25px;
+  font-size: 20px;
 }
 @media only screen and (min-width: 950px) and (max-width: 1128px), only screen and (min-width: 1129px) {
   .contact {
@@ -455,11 +458,11 @@ a:hover {
   display: block;
   border-bottom: 1px solid #111;
   line-height: 27px;
-  padding: 5px 0 5px 0;
+  padding: 3px 0 3px 0;
 }
 .contact-section {
   font-family: 'AkzidenzGrotesk-LightCond';
-  font-size: 24px;
+  font-size: 22px;
   float: left;
   margin: 28px 30px 15px 25px;
 }

@@ -1,7 +1,9 @@
 	<div class="col-lg-12 no-padding">
 		<div class="contact-section">
-			<span>CELULAR (+57) 320 875 8452 ·</span>
-			<span>MAIL avilla@camilia.co</span>
+			<span>DIRECCIÓN Carrera 13 # 93B - 51 Local 101 /</span> 
+			<span>TEL (+571) 6363757 /</span>
+			<span>CEL (+57) 320 8758452 /</span>
+			<span>MAIL contacto@camilia.co</span>
 		</div>
 		<ul class="social-section">
 			<li><a href="http://twitter.com/CamiliaPatisser" class="btn-tw" target="new"></a></li>

@@ -1,12 +1,12 @@
 <?php
 
-class BlogController extends BaseController{
+class PostsController extends BaseController{
 	
 	protected $layout = 'layouts.main';
 
 	public function index()
 	{
-		$posts = Post::all();
+		$posts = Post::orderBy('created_at', 'desc')->paginate(5);
 		$this->layout->content = View::make('blog.index', compact('posts'));
 	}
 
@@ -18,5 +18,10 @@ class BlogController extends BaseController{
 			$post = Post::where('title', $_title)->first();
 			$this->layout->content = View::make('blog.show', compact('post'));
 		}
+	}
+
+	public function create()
+	{
+		
 	}
 }

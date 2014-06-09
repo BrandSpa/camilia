@@ -21,13 +21,12 @@ Route::get('contacto', 'HomeController@contact');
 Route::get('el-chef', 'HomeController@chef');
 Route::get('el-salon-de-te', 'HomeController@te');
 Route::post('contact', 'ContactsController@store');
-Route::get('blog', 'BlogController@index');
-Route::get('blog/{title}', 'BlogController@show');
+Route::get('post/{title}', 'PostsController@show');
 
-Route::get('blog', ['as' => 'blog', 'uses' => 'BlogController@index']);
+Route::get('blog', ['as' => 'blog', 'uses' => 'PostsController@index']);
 
-Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function()
+Route::group(['before' => 'auth.basic', 'prefix' => 'admin', 'namespace' => 'Admin'], function()
 {
-	Route::resource('blog', 'BlogController');
+	Route::resource('posts', 'PostsController');
 });
 

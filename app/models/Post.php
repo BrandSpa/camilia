@@ -1,5 +1,9 @@
 <?php
+use Illuminate\Database\Eloquent\SoftDeletingTrait;
 
 class Post extends \Eloquent {
-    protected $fillable = [];
+
+	use SoftDeletingTrait;
+    protected $dates = ['deleted_at'];
+    protected $fillable = ['image','title', 'description'];
 }

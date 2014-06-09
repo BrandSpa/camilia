@@ -7,16 +7,18 @@
 @stop
 
 @section('content')
-@foreach($posts as $post)
 <div class="row" id="posts">
-	
+@foreach($posts as $post)
 		<div class="col-lg-12">
-			<a href="/blog/[[ str_replace(' ', '-', $post->title) ]]"><img src="[[ $post->image ]]" alt="[[ $post->title ]]" class="img-responsive"></a>
-			<h1><a href="/blog/[[ str_replace(' ', '-', $post->title) ]]">[[ $post->title ]]</a></h1>
-		<p>[[ str_limit($post->description, $limit = 300, $end = '...') ]]</p>
+			<a href="/post/[[ str_replace(' ', '-', $post->title) ]]" class="title">
+				<img src="[[ asset('img/posts/'.$post->image) ]]" alt="[[ $post->title ]]" class="img-responsive">
+				<h1>[[ $post->title ]]</h1>
+			</a>
+		<p>[[[ str_limit($post->description, $limit = 300, $end = '...') ]]]</p>
 		<hr>
 		</div>
-		
-	</div>
-	@endforeach
+@endforeach
+</div>
+
+	[[$posts->links()]]
 @stop

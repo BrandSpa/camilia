@@ -7,10 +7,9 @@
 	@section('head')
 	@show
 	<link rel="shortcut icon" href="favicon.png" type="image/png" />
-	
 
-	@section('styles')
-		<link rel="stylesheet" href="[[ asset('bower_components/bootstrap/dist/css/bootstrap.css') ]]">
+	<link rel="stylesheet" href="[[ asset('bower_components/bootstrap/dist/css/bootstrap.css') ]]">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="[[ asset('css/theme-camilia.css') ]]">
 	<link rel="stylesheet" href="[[ asset('bower_components/summernote/summernote-dist/summernote.css') ]]">
 	@section('stylesheet')
@@ -40,6 +39,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<li><a href="/el-salon-de-te">Salón de té</a></li>
 				<li><a href="/el-chef">Chef</a></li>
 				<li><a href="/contacto">Contacto</a></li>
+				<li><a href="/blog">Blog</a></li>
 			</ul>
 			<a href="#" class="visible-xs visible-sm open-menu pull-left">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -96,9 +96,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     ['color', ['color']],
     ['para', ['ul', 'ol', 'paragraph']],
     ['height', ['height']],
-    //['insert', ['picture', 'link']], // no insert buttons
-    //['table', ['table']], // no table button
-    //['help', ['help']] //no help button
+    ['insert', ['link']], // no insert buttons
   ]
 });
 </script>

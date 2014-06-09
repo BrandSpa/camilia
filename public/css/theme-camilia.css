@@ -100,7 +100,7 @@ a:hover {
 }
 .nav-top ul li {
   display: inline-block;
-  margin-left: 18px;
+  margin-left: 9px;
   font-size: 18px;
   font-family: 'AkzidenzGrotesk-LightCond';
   text-transform: uppercase;
@@ -1390,20 +1390,61 @@ html[xmlns] .slides {
   color: #468847;
   background: #DFF0D8;
 }
-#posts h1 {
-  font-family: 'Archer-Medium';
-  font-size: 28px;
-  color: #000;
+#posts .title {
+  position: relative;
+  width: 100%;
+  display: block;
 }
-#posts h1 a {
-  color: #000;
+#posts .title h1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  text-align: center;
+  font-family: 'AkzidenzGrotesk-LightCond';
+  font-size: 28px;
+  color: #fff;
+  font-weight: normal !important;
 }
 #posts p {
-  font-size: 20px;
-  font-family: 'AkzidenzGrotesk-LightCond';
+  margin-top: 15px;
+  font-size: 18px;
+  font-family: 'Archer-Medium';
   color: #666665;
   line-height: 1.2;
 }
 #posts hr {
   border-color: #B39C64;
+}
+.title {
+  position: relative;
+}
+.title h1 {
+  position: absolute;
+  bottom: 15px;
+  color: #fff;
+  width: 800px;
+  font-size: 36px;
+  font-family: 'AkzidenzGrotesk-LightCond';
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.post {
+  margin: 30px 0 30px 0;
+  font-family: 'Archer-Medium';
+  font-size: 18px;
+}
+.summernote .note-editable {
+  height: 150px;
+}
+.separator {
+  display: block;
+  width: 317px;
+  height: 30px;
+  background: url('../img/separator.png') no-repeat;
+  margin: 0 auto;
 }

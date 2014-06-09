@@ -19,6 +19,7 @@ class CreatePostsTable extends Migration {
             $table->string('subtitle');
             $table->text('description');
 			$table->timestamps();
+			$table->softDeletes();
         });
 	}
 

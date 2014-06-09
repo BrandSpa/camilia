@@ -1438,6 +1438,10 @@ html[xmlns] .slides {
   font-family: 'Archer-Medium';
   font-size: 18px;
 }
+.post div {
+  font-family: 'Archer-Medium';
+  font-size: 18px;
+}
 .summernote .note-editable {
   height: 150px;
 }

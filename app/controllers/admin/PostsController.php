@@ -48,6 +48,8 @@ class PostsController extends \BaseController {
 		];
 
 		Post::create($data);
+
+		return Redirect::to('/blog');
 	}
 
 	/**

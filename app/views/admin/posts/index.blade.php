@@ -5,6 +5,7 @@
 <p></p>
 @stop
 @section('content')
+<a href="/admin/posts/create" class="btn btn-success">Nuevo post</a>
 	@foreach($posts as $post)
 		<div class="row" id="posts">	
 			<div class="col-lg-12">

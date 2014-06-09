@@ -1,4 +1,4 @@
-$(function(){
+a$(function(){
 	$('.flexslider').flexslider({
 		animation: "slide",
 		animationLoop: true,

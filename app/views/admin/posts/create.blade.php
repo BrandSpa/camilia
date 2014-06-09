@@ -29,7 +29,7 @@
 		formData = new FormData(form);
 		request.open('post', '/admin/posts');
 		request.send(formData);
-		
+		window.location.href = '/blog';
 	});
 </script>
 @stop

@@ -14,7 +14,7 @@
 				<img src="[[ asset('img/posts/'.$post->image) ]]" alt="[[ $post->title ]]" class="img-responsive">
 				<h1>[[ $post->title ]]</h1>
 			</a>
-		<p>[[[ str_limit($post->description, $limit = 300, $end = '...') ]]]</p>
+		<p>[[ str_limit($post->description, $limit = 300, $end = '...') ]]</p>
 		<hr>
 		</div>
 @endforeach

@@ -93,7 +93,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     //['style', ['style']], // no style button
     ['style', ['bold', 'italic', 'underline', 'clear']],
     ['fontsize', ['fontsize']],
-    ['color', ['color']],
     ['para', ['ul', 'ol', 'paragraph']],
     ['height', ['height']],
     ['insert', ['link']], // no insert buttons

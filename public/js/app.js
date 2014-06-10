@@ -36,7 +36,6 @@ $(function(){
 			{
 				$this.parent().fadeOut();
 				title.text('Gracias, pronto nos pondremos en contacto con usted.');
-
 			} else {
 				title.text('Envíanos un Mensaje');
 				$this.text('Enviar');

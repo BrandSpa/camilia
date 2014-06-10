@@ -8,9 +8,7 @@
 </div>
 @stop
 
-
 @section('content')
-
 <div class="row">
 		<div class="col-lg-12 post">
 			[[$post->description ]]

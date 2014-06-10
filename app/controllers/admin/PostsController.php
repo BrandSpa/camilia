@@ -3,6 +3,9 @@
 use Post;
 use View;
 use Input;
+use Response;
+use Validator;
+use Redirect;
 
 class PostsController extends \BaseController {
 	protected $layout = 'layouts.main';
@@ -36,20 +39,35 @@ class PostsController extends \BaseController {
 	 * @return Response
 	 */
 	public function store()
-	{
-		$destinationPath = public_path().'/img/posts/';
-		$image = Input::file('image');
-		$fileName =  str_random(40).'.'.$image->getClientOriginalExtension();
-		$upload = $image->move($destinationPath,  $fileName);
+	{	
+		$rules = [
+			'title' => 'required',
+			'description' => 'required',
+			'image' => 'image'
+		];
+
+		$validator = Validator::make(Input::all(), $rules);
+		
+		if (Input::has('image')) {
+			$destinationPath = public_path().'/img/posts/';
+			$image = Input::file('image');
+			$fileName =  str_random(40).'.'.$image->getClientOriginalExtension();
+			$upload = $image->move($destinationPath,  $fileName);
+		} else {
+			$fileName = 'post-image.jpg';
+		}
+		
 		$data = [
 			'image' => $fileName,
 			'title' => Input::get('title'),
 			'description' => Input::get('description')
 		];
 
-		Post::create($data);
+		if ($validator->fails()) {
+			return Response::json($validator->messages());
+		}
 
-		return Redirect::to('/blog');
+		return Post::create($data);
 	}
 
 	/**
@@ -115,6 +133,7 @@ class PostsController extends \BaseController {
 	{
 		$post = Post::find($id);
 		$post->delete();
+		return Redirect::to('admin/posts');
 	}
 
 }

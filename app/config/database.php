@@ -57,7 +57,7 @@ return array(
 			'host'      => 'localhost',
 			'database'  => 'camilia_site',
 			'username'  => 'root',
-			'password'  => 'root', //0PT1M4.cc
+			'password'  => '0PT1M4.cc', //0PT1M4.cc
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

@@ -18,7 +18,8 @@ class HomeController extends BaseController {
 
 	public function showHome()
 	{
-		$this->layout->content = View::make('home');
+		$posts = Post::orderBy('created_at', 'desc')->paginate(5);
+		$this->layout->content = View::make('home', compact('posts'));
 	}
 
 	public function wantToMarry()

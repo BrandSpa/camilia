@@ -987,7 +987,7 @@ html[xmlns] .slides {display: block;}
 	}
 }
 
-Å.alertify,
+.alertify,
 .alertify-show,
 .alertify-log {
 	-webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
@@ -1258,20 +1258,51 @@ html[xmlns] .slides {display: block;}
 
 
  #posts{
+ 	padding-top: 0;
+ 	margin-top: 0;
+
+ 	span{
+ 		font: 16px 'AkzidenzGrotesk-LightCond';
+ 		color:#666665;
+ 	}
+ 	h3{
+ 		margin-top: 0;
+ 	}
  	.title{
  		position: relative;
  		width: 100%;
  		display: block;
+ 		img{
+ 			@media @mobile{
+ 				display: none;
+ 			}
+ 		}
  		h1{
- 			position: absolute;
- 			.centerAbsolute;
- 			width: 400px;
- 			text-align: center;
  			font-family: 'AkzidenzGrotesk-LightCond';
- 			font-size: 28px;
- 			color:#fff;
  			font-weight: normal !important;
-
+ 			width: 100%;
+ 			display: block;
+ 			top: 0;
+ 			text-align: center;
+ 			color: #000;
+ 			font-size: 28px;
+ 			border-bottom: 1px solid #B39C64;
+ 			padding-bottom: 10px;
+ 			@media @desktop-xl, @desktop, @tablet{
+ 				position: absolute;
+ 				text-align: center;
+ 				top: 23%;
+ 				font-size: 32px;
+ 				color:#fff;
+ 				border: none;
+ 			}
+ 		}
+ 		.date{
+ 			position: absolute;
+ 			bottom: 15px;
+ 			right: 15px;
+ 			font-size: 15px;
+ 			color:#fff;
  		}
  	}
 
@@ -1290,17 +1321,16 @@ html[xmlns] .slides {display: block;}
 
  }
 
- .title{
+ .post-title{
  	position: relative;
-
  	h1{
  		position: absolute;
- 		bottom:15px;
+ 		bottom: 15px;
  		color: #fff;
- 		width: 800px;
  		font-size: 36px;
  		font-family: 'AkzidenzGrotesk-LightCond';
- 		.centerAbsolute;
+ 		text-align: center;
+ 		width: 100%;
  	}
  }
 
@@ -1316,16 +1346,16 @@ html[xmlns] .slides {display: block;}
 
  .summernote{
  	.note-editable{
-		height: 150px;
+ 		height: 150px;
  	}
  	
  }
 
 
-.separator{
-	display: block;
-	width: 317px;
-	height: 30px;
-	background: url('../img/separator.png') no-repeat;
-	margin: 0 auto;
-}
+ .separator{
+ 	display: block;
+ 	width: 317px;
+ 	height: 30px;
+ 	background: url('../img/separator.png') no-repeat;
+ 	margin: 0 auto;
+ }

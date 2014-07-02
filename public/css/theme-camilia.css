@@ -1118,7 +1118,7 @@ html[xmlns] .slides {
 .intro-chef ul {
   text-align: center;
 }
-Å.alertify,
+.alertify,
 .alertify-show,
 .alertify-log {
   -webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -1390,23 +1390,55 @@ html[xmlns] .slides {
   color: #468847;
   background: #DFF0D8;
 }
+#posts {
+  padding-top: 0;
+  margin-top: 0;
+}
+#posts span {
+  font: 16px 'AkzidenzGrotesk-LightCond';
+  color: #666665;
+}
+#posts h3 {
+  margin-top: 0;
+}
 #posts .title {
   position: relative;
   width: 100%;
   display: block;
 }
+@media only screen and (max-width: 529px) {
+  #posts .title img {
+    display: none;
+  }
+}
 #posts .title h1 {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  width: 400px;
-  text-align: center;
   font-family: 'AkzidenzGrotesk-LightCond';
-  font-size: 28px;
-  color: #fff;
   font-weight: normal !important;
+  width: 100%;
+  display: block;
+  top: 0;
+  text-align: center;
+  color: #000;
+  font-size: 28px;
+  border-bottom: 1px solid #B39C64;
+  padding-bottom: 10px;
+}
+@media only screen and (min-width: 1129px), only screen and (min-width: 950px) and (max-width: 1128px), only screen and (min-width: 530px) and (max-width: 949px) {
+  #posts .title h1 {
+    position: absolute;
+    text-align: center;
+    top: 23%;
+    font-size: 32px;
+    color: #fff;
+    border: none;
+  }
+}
+#posts .title .date {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 15px;
+  color: #fff;
 }
 #posts p {
   margin-top: 15px;
@@ -1418,20 +1450,17 @@ html[xmlns] .slides {
 #posts hr {
   border-color: #B39C64;
 }
-.title {
+.post-title {
   position: relative;
 }
-.title h1 {
+.post-title h1 {
   position: absolute;
   bottom: 15px;
   color: #fff;
-  width: 800px;
   font-size: 36px;
   font-family: 'AkzidenzGrotesk-LightCond';
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  width: 100%;
 }
 .post {
   margin: 30px 0 30px 0;

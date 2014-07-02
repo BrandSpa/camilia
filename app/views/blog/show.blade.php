@@ -2,10 +2,10 @@
 <title>Camilia Blog / [[ $post->title ]]</title>
 @stop
 @section('header')
-<div class="title">
-		<img src="[[ asset('img/posts/'.$post->image) ]]" alt="[[ $post->title ]]" class="img-responsive">
-		<h1>[[ $post->title ]]</h1>
-</div>
+	<div class="post-title">
+			<img src="[[ asset('img/posts/'.$post->image) ]]" alt="[[ $post->title ]]" class="img-responsive">
+			<h1>[[ $post->title ]]</h1>
+	</div>
 @stop
 
 @section('content')

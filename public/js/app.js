@@ -7,15 +7,6 @@ $(function(){
 		directionNav: false
 	});
 
-	var element = document;
-	var hammeropen = Hammer(element).on("swiperight", function(event) {
-		$.sidr();
-	});
-
-	var hammerclose = Hammer(element).on("swipeleft", function(event) {
-		$.sidr('close');
-	});
-
 	$('.open-menu').sidr();
 
 	$(document).on('click', '.btn-contact', function(e){
